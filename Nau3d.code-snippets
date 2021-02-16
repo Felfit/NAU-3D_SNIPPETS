@@ -1,0 +1,82 @@
+{
+	//List of Snipets for Nau3D
+
+	//ATRIBUTE SNIPETS ---------------------------------------------
+	"nau::attribute":{
+		"scope": "xml",
+		"prefix": ["attribute","<attribute"],
+		"body": [
+			"<attribute name=\"${1:name}\" data=\"${2|FLOAT,INT,BOOL|}\" type=\"RENDERER\" value=\"$3\"  />"
+		],
+		"description": "Attribute autocomplete"
+	},
+	"nau::attribute::VEC2":{
+		"scope": "xml",
+		"prefix": ["attribute","<attribute"],
+		"body": [
+			"<attribute name=\"${1:name}\" data=\"VEC2\" type=\"RENDERER\" x=\"0.0\" y=\"0.0\"/>"
+		],
+		"description": "Attribute autocomplete"
+	},"nau::attribute::VEC3":{
+		"scope": "xml",
+		"prefix": ["attribute","<attribute"],
+		"body": [
+			"<attribute name=\"${1:name}\" data=\"VEC3\" type=\"RENDERER\" x=\"0.0\" y=\"0.0\" z=\"0.0\" />"
+		],
+		"description": "Attribute autocomplete"
+	},
+	"nau::attribute::VEC4":{
+		"scope": "xml",
+		"prefix": ["attribute","<attribute"],
+		"body": [
+			"<attribute name=\"${1:name}\" data=\"VEC4\" type=\"RENDERER\" x=\"0.0\" y=\"0.0\" z=\"0.0\" w=\"0.0\" />"
+		],
+		"description": "Attribute autocomplete"
+	},
+
+	//MATERIAL SNIPETS ---------------------------------------------
+	"nau::materials::valueof":{
+		"scope": "xml",
+		"prefix": ["valueof","<valueof"],
+		"body": [
+			"<valueof uniform=\"$1\" 		type=\"RENDERER\"$0 		context=\"CURRENT\" $0		component=\"$1\" />"
+		],
+		"description": "Attribute autocomplete"
+	},
+
+	//INTERFACE SNIPETS ---------------------------------------------
+	"nau::interface::var":{
+		"scope": "xml",
+		"prefix": ["interface","var","<var"],
+		"body": [
+			"<var label=\"$1\" 	type=\"RENDERER\" context=\"CURRENT\" component=\"$1\" 	/>"
+		],
+		"description": "Attribute autocomplete"
+	},
+
+	//SHADER  SNIPETS ---------------------------------------------
+	"nau::shader":{
+		"scope": "xml",
+		"prefix": ["shader","<shader"],
+		"body": [
+			"<shader name=\"$0\"",
+			"\tvs=\"shaders/$0.vert\"",
+			"\ttc=\"shaders/$0.tesc\"",
+			"\tte=\"shaders/$0.tese\"",
+			"\tgs=\"shaders/$0.geom\"",
+			"\tps=\"shaders/$0.frag\"",
+			"/>"
+		],
+		"description": "Attribute autocomplete"
+	},
+	"nau::shader::compute":{
+		"scope": "xml",
+		"prefix": ["shader","<shader","compute"],
+		"body": [
+			"<shader name=\"$0\" ",
+			"\tcs=\"shaders/$0.comp\"",
+			"/>"
+		],
+		"description": "Attribute autocomplete"
+	}
+}

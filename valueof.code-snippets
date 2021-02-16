@@ -1,0 +1,1782 @@
+{
+  "nau::valueof::BUFFER::CLEAR": {
+    "scope": "xml",
+    "prefix": [
+      "valueof BUFFER CLEAR"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:CLEAR}\" \t\ttype=\"BUFFER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::BUFFER::DIM": {
+    "scope": "xml",
+    "prefix": [
+      "valueof BUFFER DIM"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DIM}\" \t\ttype=\"BUFFER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIM\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::BUFFER::ID": {
+    "scope": "xml",
+    "prefix": [
+      "valueof BUFFER ID"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ID}\" \t\ttype=\"BUFFER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ID\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::BUFFER::SIZE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof BUFFER SIZE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:SIZE}\" \t\ttype=\"BUFFER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SIZE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::BUFFER::STRUCT_SIZE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof BUFFER STRUCT_SIZE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:STRUCT_SIZE}\" \t\ttype=\"BUFFER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STRUCT_SIZE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::BUFFER_BINDING::BINDING_POINT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof BUFFER_BINDING BINDING_POINT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:BINDING_POINT}\" \t\ttype=\"BUFFER_BINDING\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BINDING_POINT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::BUFFER_BINDING::TYPE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof BUFFER_BINDING TYPE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:TYPE}\" \t\ttype=\"BUFFER_BINDING\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TYPE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::BUFFER_MATERIAL::CLEAR": {
+    "scope": "xml",
+    "prefix": [
+      "valueof BUFFER_MATERIAL CLEAR"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:CLEAR}\" \t\ttype=\"BUFFER_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::BUFFER_MATERIAL::DIM": {
+    "scope": "xml",
+    "prefix": [
+      "valueof BUFFER_MATERIAL DIM"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DIM}\" \t\ttype=\"BUFFER_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIM\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::BUFFER_MATERIAL::ID": {
+    "scope": "xml",
+    "prefix": [
+      "valueof BUFFER_MATERIAL ID"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ID}\" \t\ttype=\"BUFFER_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ID\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::BUFFER_MATERIAL::SIZE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof BUFFER_MATERIAL SIZE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:SIZE}\" \t\ttype=\"BUFFER_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SIZE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::BUFFER_MATERIAL::STRUCT_SIZE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof BUFFER_MATERIAL STRUCT_SIZE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:STRUCT_SIZE}\" \t\ttype=\"BUFFER_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STRUCT_SIZE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::BOTTOM": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA BOTTOM"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:BOTTOM}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BOTTOM\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::ELEVATION_ANGLE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA ELEVATION_ANGLE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ELEVATION_ANGLE}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ELEVATION_ANGLE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::FAR": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA FAR"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:FAR}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"FAR\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::FOV": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA FOV"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:FOV}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"FOV\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::LEFT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA LEFT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:LEFT}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LEFT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::LOOK_AT_POINT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA LOOK_AT_POINT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:LOOK_AT_POINT}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LOOK_AT_POINT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::NEAR": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA NEAR"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:NEAR}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"NEAR\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::NORMALIZED_RIGHT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA NORMALIZED_RIGHT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:NORMALIZED_RIGHT}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"NORMALIZED_RIGHT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::NORMALIZED_UP": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA NORMALIZED_UP"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:NORMALIZED_UP}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"NORMALIZED_UP\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::POSITION": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA POSITION"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:POSITION}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"POSITION\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::PROJECTION_INVERSE_MATRIX": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA PROJECTION_INVERSE_MATRIX"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:PROJECTION_INVERSE_MATRIX}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"PROJECTION_INVERSE_MATRIX\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::PROJECTION_MATRIX": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA PROJECTION_MATRIX"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:PROJECTION_MATRIX}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"PROJECTION_MATRIX\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::PROJECTION_VIEW_MATRIX": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA PROJECTION_VIEW_MATRIX"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:PROJECTION_VIEW_MATRIX}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"PROJECTION_VIEW_MATRIX\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::RIGHT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA RIGHT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:RIGHT}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"RIGHT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::TOP": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA TOP"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:TOP}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TOP\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::TS05_PVM_MATRIX": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA TS05_PVM_MATRIX"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:TS05_PVM_MATRIX}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TS05_PVM_MATRIX\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::TYPE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA TYPE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:TYPE}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TYPE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::UP": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA UP"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:UP}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"UP\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::VIEW": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA VIEW"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:VIEW}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"VIEW\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::VIEW_INVERSE_MATRIX": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA VIEW_INVERSE_MATRIX"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:VIEW_INVERSE_MATRIX}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"VIEW_INVERSE_MATRIX\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::VIEW_MATRIX": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA VIEW_MATRIX"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:VIEW_MATRIX}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"VIEW_MATRIX\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::CAMERA::ZX_ANGLE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof CAMERA ZX_ANGLE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ZX_ANGLE}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ZX_ANGLE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::COLOR::AMBIENT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof COLOR AMBIENT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:AMBIENT}\" \t\ttype=\"COLOR\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"AMBIENT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::COLOR::DIFFUSE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof COLOR DIFFUSE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DIFFUSE}\" \t\ttype=\"COLOR\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIFFUSE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::COLOR::EMISSION": {
+    "scope": "xml",
+    "prefix": [
+      "valueof COLOR EMISSION"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:EMISSION}\" \t\ttype=\"COLOR\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"EMISSION\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::COLOR::SHININESS": {
+    "scope": "xml",
+    "prefix": [
+      "valueof COLOR SHININESS"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:SHININESS}\" \t\ttype=\"COLOR\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SHININESS\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::COLOR::SPECULAR": {
+    "scope": "xml",
+    "prefix": [
+      "valueof COLOR SPECULAR"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:SPECULAR}\" \t\ttype=\"COLOR\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SPECULAR\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::IMAGE_TEXTURE::ACCESS": {
+    "scope": "xml",
+    "prefix": [
+      "valueof IMAGE_TEXTURE ACCESS"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ACCESS}\" \t\ttype=\"IMAGE_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ACCESS\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::IMAGE_TEXTURE::CLEAR": {
+    "scope": "xml",
+    "prefix": [
+      "valueof IMAGE_TEXTURE CLEAR"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:CLEAR}\" \t\ttype=\"IMAGE_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::IMAGE_TEXTURE::INTERNAL_FORMAT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof IMAGE_TEXTURE INTERNAL_FORMAT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:INTERNAL_FORMAT}\" \t\ttype=\"IMAGE_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"INTERNAL_FORMAT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::IMAGE_TEXTURE::LEVEL": {
+    "scope": "xml",
+    "prefix": [
+      "valueof IMAGE_TEXTURE LEVEL"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:LEVEL}\" \t\ttype=\"IMAGE_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LEVEL\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::IMAGE_TEXTURE::TEX_ID": {
+    "scope": "xml",
+    "prefix": [
+      "valueof IMAGE_TEXTURE TEX_ID"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:TEX_ID}\" \t\ttype=\"IMAGE_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TEX_ID\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::IMAGE_TEXTURE::UNIT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof IMAGE_TEXTURE UNIT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:UNIT}\" \t\ttype=\"IMAGE_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"UNIT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::LIGHT::AMBIENT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof LIGHT AMBIENT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:AMBIENT}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"AMBIENT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::LIGHT::COLOR": {
+    "scope": "xml",
+    "prefix": [
+      "valueof LIGHT COLOR"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:COLOR}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"COLOR\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::LIGHT::CONSTANT_ATT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof LIGHT CONSTANT_ATT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:CONSTANT_ATT}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CONSTANT_ATT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::LIGHT::DIRECTION": {
+    "scope": "xml",
+    "prefix": [
+      "valueof LIGHT DIRECTION"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DIRECTION}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIRECTION\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::LIGHT::ENABLED": {
+    "scope": "xml",
+    "prefix": [
+      "valueof LIGHT ENABLED"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ENABLED}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ENABLED\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::LIGHT::ID": {
+    "scope": "xml",
+    "prefix": [
+      "valueof LIGHT ID"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ID}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ID\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::LIGHT::LINEAR_ATT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof LIGHT LINEAR_ATT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:LINEAR_ATT}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LINEAR_ATT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::LIGHT::NORMALIZED_DIRECTION": {
+    "scope": "xml",
+    "prefix": [
+      "valueof LIGHT NORMALIZED_DIRECTION"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:NORMALIZED_DIRECTION}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"NORMALIZED_DIRECTION\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::LIGHT::POSITION": {
+    "scope": "xml",
+    "prefix": [
+      "valueof LIGHT POSITION"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:POSITION}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"POSITION\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::LIGHT::QUADRATIC_ATT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof LIGHT QUADRATIC_ATT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:QUADRATIC_ATT}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"QUADRATIC_ATT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::LIGHT::SPOT_CUTOFF": {
+    "scope": "xml",
+    "prefix": [
+      "valueof LIGHT SPOT_CUTOFF"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:SPOT_CUTOFF}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SPOT_CUTOFF\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::LIGHT::SPOT_DIRECTION": {
+    "scope": "xml",
+    "prefix": [
+      "valueof LIGHT SPOT_DIRECTION"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:SPOT_DIRECTION}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SPOT_DIRECTION\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::LIGHT::SPOT_EXPONENT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof LIGHT SPOT_EXPONENT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:SPOT_EXPONENT}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SPOT_EXPONENT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::BUFFER_DRAW_INDIRECT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS BUFFER_DRAW_INDIRECT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:BUFFER_DRAW_INDIRECT}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BUFFER_DRAW_INDIRECT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::COLOR_CLEAR": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS COLOR_CLEAR"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:COLOR_CLEAR}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"COLOR_CLEAR\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::COLOR_CLEAR_VALUE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS COLOR_CLEAR_VALUE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:COLOR_CLEAR_VALUE}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"COLOR_CLEAR_VALUE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::COLOR_ENABLE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS COLOR_ENABLE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:COLOR_ENABLE}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"COLOR_ENABLE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::DEPTH_CLAMPING": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS DEPTH_CLAMPING"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DEPTH_CLAMPING}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_CLAMPING\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::DEPTH_CLEAR": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS DEPTH_CLEAR"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DEPTH_CLEAR}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_CLEAR\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::DEPTH_CLEAR_VALUE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS DEPTH_CLEAR_VALUE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DEPTH_CLEAR_VALUE}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_CLEAR_VALUE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::DEPTH_ENABLE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS DEPTH_ENABLE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DEPTH_ENABLE}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_ENABLE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::DEPTH_FUNC": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS DEPTH_FUNC"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DEPTH_FUNC}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_FUNC\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::DEPTH_MASK": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS DEPTH_MASK"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DEPTH_MASK}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_MASK\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::DIM_X": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS DIM_X"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DIM_X}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIM_X\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::DIM_Y": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS DIM_Y"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DIM_Y}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIM_Y\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::DIM_Z": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS DIM_Z"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DIM_Z}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIM_Z\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::INSTANCE_COUNT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS INSTANCE_COUNT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:INSTANCE_COUNT}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"INSTANCE_COUNT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::RAY_COUNT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS RAY_COUNT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:RAY_COUNT}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"RAY_COUNT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::RUN_MODE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS RUN_MODE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:RUN_MODE}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"RUN_MODE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::STENCIL_CLEAR": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS STENCIL_CLEAR"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:STENCIL_CLEAR}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_CLEAR\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::STENCIL_CLEAR_VALUE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS STENCIL_CLEAR_VALUE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:STENCIL_CLEAR_VALUE}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_CLEAR_VALUE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::STENCIL_DEPTH_FAIL": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS STENCIL_DEPTH_FAIL"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:STENCIL_DEPTH_FAIL}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_DEPTH_FAIL\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::STENCIL_DEPTH_PASS": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS STENCIL_DEPTH_PASS"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:STENCIL_DEPTH_PASS}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_DEPTH_PASS\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::STENCIL_ENABLE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS STENCIL_ENABLE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:STENCIL_ENABLE}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_ENABLE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::STENCIL_FAIL": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS STENCIL_FAIL"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:STENCIL_FAIL}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_FAIL\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::STENCIL_FUNC": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS STENCIL_FUNC"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:STENCIL_FUNC}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_FUNC\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::STENCIL_OP_MASK": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS STENCIL_OP_MASK"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:STENCIL_OP_MASK}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_OP_MASK\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::STENCIL_OP_REF": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS STENCIL_OP_REF"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:STENCIL_OP_REF}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_OP_REF\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS::TEST_MODE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS TEST_MODE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:TEST_MODE}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TEST_MODE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS_POST_PROCESS_BUFFER::CLEAR": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS_POST_PROCESS_BUFFER CLEAR"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:CLEAR}\" \t\ttype=\"PASS_POST_PROCESS_BUFFER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS_POST_PROCESS_TEXTURE::CLEAR": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS_POST_PROCESS_TEXTURE CLEAR"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:CLEAR}\" \t\ttype=\"PASS_POST_PROCESS_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS_POST_PROCESS_TEXTURE::CLEAR_LEVEL": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS_POST_PROCESS_TEXTURE CLEAR_LEVEL"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:CLEAR_LEVEL}\" \t\ttype=\"PASS_POST_PROCESS_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR_LEVEL\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS_POST_PROCESS_TEXTURE::MIPMAP": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS_POST_PROCESS_TEXTURE MIPMAP"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:MIPMAP}\" \t\ttype=\"PASS_POST_PROCESS_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"MIPMAP\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS_PRE_PROCESS_BUFFER::CLEAR": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS_PRE_PROCESS_BUFFER CLEAR"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:CLEAR}\" \t\ttype=\"PASS_PRE_PROCESS_BUFFER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS_PRE_PROCESS_TEXTURE::CLEAR": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS_PRE_PROCESS_TEXTURE CLEAR"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:CLEAR}\" \t\ttype=\"PASS_PRE_PROCESS_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS_PRE_PROCESS_TEXTURE::CLEAR_LEVEL": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS_PRE_PROCESS_TEXTURE CLEAR_LEVEL"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:CLEAR_LEVEL}\" \t\ttype=\"PASS_PRE_PROCESS_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR_LEVEL\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::PASS_PRE_PROCESS_TEXTURE::MIPMAP": {
+    "scope": "xml",
+    "prefix": [
+      "valueof PASS_PRE_PROCESS_TEXTURE MIPMAP"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:MIPMAP}\" \t\ttype=\"PASS_PRE_PROCESS_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"MIPMAP\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::BUFFER_DRAW_INDIRECT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER BUFFER_DRAW_INDIRECT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:BUFFER_DRAW_INDIRECT}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BUFFER_DRAW_INDIRECT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::DEBUG_DRAW_CALL": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER DEBUG_DRAW_CALL"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DEBUG_DRAW_CALL}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEBUG_DRAW_CALL\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::FRAME_COUNT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER FRAME_COUNT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:FRAME_COUNT}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"FRAME_COUNT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::INSTANCE_COUNT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER INSTANCE_COUNT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:INSTANCE_COUNT}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"INSTANCE_COUNT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::LIGHT_COUNT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER LIGHT_COUNT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:LIGHT_COUNT}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LIGHT_COUNT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::MODEL": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER MODEL"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:MODEL}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"MODEL\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::MOUSE_LEFT_CLICK": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER MOUSE_LEFT_CLICK"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:MOUSE_LEFT_CLICK}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"MOUSE_LEFT_CLICK\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::MOUSE_MIDDLE_CLICK": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER MOUSE_MIDDLE_CLICK"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:MOUSE_MIDDLE_CLICK}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"MOUSE_MIDDLE_CLICK\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::MOUSE_RIGHT_CLICK": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER MOUSE_RIGHT_CLICK"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:MOUSE_RIGHT_CLICK}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"MOUSE_RIGHT_CLICK\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::NORMAL": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER NORMAL"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:NORMAL}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"NORMAL\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::PROJECTION": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER PROJECTION"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:PROJECTION}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"PROJECTION\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::PROJECTION_VIEW": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER PROJECTION_VIEW"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:PROJECTION_VIEW}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"PROJECTION_VIEW\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::PROJECTION_VIEW_MODEL": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER PROJECTION_VIEW_MODEL"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:PROJECTION_VIEW_MODEL}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"PROJECTION_VIEW_MODEL\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::TEXTURE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER TEXTURE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:TEXTURE}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TEXTURE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::TEXTURE_COUNT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER TEXTURE_COUNT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:TEXTURE_COUNT}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TEXTURE_COUNT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::TIMER": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER TIMER"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:TIMER}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TIMER\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::TS05_PVM": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER TS05_PVM"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:TS05_PVM}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TS05_PVM\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::VIEW": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER VIEW"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:VIEW}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"VIEW\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDERER::VIEW_MODEL": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDERER VIEW_MODEL"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:VIEW_MODEL}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"VIEW_MODEL\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDER_TARGET::CLEAR_VALUES": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDER_TARGET CLEAR_VALUES"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:CLEAR_VALUES}\" \t\ttype=\"RENDER_TARGET\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR_VALUES\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDER_TARGET::LAYERS": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDER_TARGET LAYERS"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:LAYERS}\" \t\ttype=\"RENDER_TARGET\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LAYERS\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDER_TARGET::LEVELS": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDER_TARGET LEVELS"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:LEVELS}\" \t\ttype=\"RENDER_TARGET\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LEVELS\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDER_TARGET::SAMPLES": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDER_TARGET SAMPLES"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:SAMPLES}\" \t\ttype=\"RENDER_TARGET\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SAMPLES\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::RENDER_TARGET::SIZE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof RENDER_TARGET SIZE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:SIZE}\" \t\ttype=\"RENDER_TARGET\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SIZE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::SCENE::BB_CENTER": {
+    "scope": "xml",
+    "prefix": [
+      "valueof SCENE BB_CENTER"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:BB_CENTER}\" \t\ttype=\"SCENE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BB_CENTER\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::SCENE::BB_MAX": {
+    "scope": "xml",
+    "prefix": [
+      "valueof SCENE BB_MAX"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:BB_MAX}\" \t\ttype=\"SCENE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BB_MAX\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::SCENE::BB_MIN": {
+    "scope": "xml",
+    "prefix": [
+      "valueof SCENE BB_MIN"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:BB_MIN}\" \t\ttype=\"SCENE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BB_MIN\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::SCENE::ROTATE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof SCENE ROTATE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ROTATE}\" \t\ttype=\"SCENE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ROTATE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::SCENE::SCALE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof SCENE SCALE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:SCALE}\" \t\ttype=\"SCENE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SCALE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::SCENE::TRANSFORM_ORDER": {
+    "scope": "xml",
+    "prefix": [
+      "valueof SCENE TRANSFORM_ORDER"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:TRANSFORM_ORDER}\" \t\ttype=\"SCENE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TRANSFORM_ORDER\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::SCENE::TRANSLATE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof SCENE TRANSLATE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:TRANSLATE}\" \t\ttype=\"SCENE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TRANSLATE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::SCENE_OBJECT::ROTATE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof SCENE_OBJECT ROTATE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ROTATE}\" \t\ttype=\"SCENE_OBJECT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ROTATE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::SCENE_OBJECT::SCALE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof SCENE_OBJECT SCALE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:SCALE}\" \t\ttype=\"SCENE_OBJECT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SCALE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::SCENE_OBJECT::TRANSFORM_ORDER": {
+    "scope": "xml",
+    "prefix": [
+      "valueof SCENE_OBJECT TRANSFORM_ORDER"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:TRANSFORM_ORDER}\" \t\ttype=\"SCENE_OBJECT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TRANSFORM_ORDER\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::SCENE_OBJECT::TRANSLATE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof SCENE_OBJECT TRANSLATE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:TRANSLATE}\" \t\ttype=\"SCENE_OBJECT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TRANSLATE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::SPHERE::SLICES": {
+    "scope": "xml",
+    "prefix": [
+      "valueof SPHERE SLICES"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:SLICES}\" \t\ttype=\"SPHERE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SLICES\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::SPHERE::STACKS": {
+    "scope": "xml",
+    "prefix": [
+      "valueof SPHERE STACKS"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:STACKS}\" \t\ttype=\"SPHERE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STACKS\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::STATE::BLEND": {
+    "scope": "xml",
+    "prefix": [
+      "valueof STATE BLEND"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:BLEND}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BLEND\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::STATE::BLEND_COLOR": {
+    "scope": "xml",
+    "prefix": [
+      "valueof STATE BLEND_COLOR"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:BLEND_COLOR}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BLEND_COLOR\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::STATE::BLEND_DST": {
+    "scope": "xml",
+    "prefix": [
+      "valueof STATE BLEND_DST"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:BLEND_DST}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BLEND_DST\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::STATE::BLEND_EQUATION": {
+    "scope": "xml",
+    "prefix": [
+      "valueof STATE BLEND_EQUATION"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:BLEND_EQUATION}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BLEND_EQUATION\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::STATE::BLEND_SRC": {
+    "scope": "xml",
+    "prefix": [
+      "valueof STATE BLEND_SRC"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:BLEND_SRC}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BLEND_SRC\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::STATE::COLOR_MASK_B4": {
+    "scope": "xml",
+    "prefix": [
+      "valueof STATE COLOR_MASK_B4"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:COLOR_MASK_B4}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"COLOR_MASK_B4\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::STATE::CULL_FACE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof STATE CULL_FACE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:CULL_FACE}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CULL_FACE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::STATE::CULL_TYPE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof STATE CULL_TYPE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:CULL_TYPE}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CULL_TYPE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::STATE::DEPTH_FUNC": {
+    "scope": "xml",
+    "prefix": [
+      "valueof STATE DEPTH_FUNC"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DEPTH_FUNC}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_FUNC\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::STATE::DEPTH_MASK": {
+    "scope": "xml",
+    "prefix": [
+      "valueof STATE DEPTH_MASK"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DEPTH_MASK}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_MASK\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::STATE::DEPTH_TEST": {
+    "scope": "xml",
+    "prefix": [
+      "valueof STATE DEPTH_TEST"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DEPTH_TEST}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_TEST\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::STATE::ORDER": {
+    "scope": "xml",
+    "prefix": [
+      "valueof STATE ORDER"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ORDER}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ORDER\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::STATE::ORDER_TYPE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof STATE ORDER_TYPE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ORDER_TYPE}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ORDER_TYPE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE::COMPONENT_COUNT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE COMPONENT_COUNT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:COMPONENT_COUNT}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"COMPONENT_COUNT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE::DEPTH": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE DEPTH"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DEPTH}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE::DIMENSION": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE DIMENSION"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DIMENSION}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIMENSION\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE::ELEMENT_SIZE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE ELEMENT_SIZE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ELEMENT_SIZE}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ELEMENT_SIZE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE::FORMAT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE FORMAT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:FORMAT}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"FORMAT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE::HEIGHT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE HEIGHT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:HEIGHT}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"HEIGHT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE::ID": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE ID"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ID}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ID\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE::INTERNAL_FORMAT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE INTERNAL_FORMAT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:INTERNAL_FORMAT}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"INTERNAL_FORMAT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE::LAYERS": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE LAYERS"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:LAYERS}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LAYERS\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE::LEVELS": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE LEVELS"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:LEVELS}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LEVELS\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE::MIPMAP": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE MIPMAP"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:MIPMAP}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"MIPMAP\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE::SAMPLES": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE SAMPLES"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:SAMPLES}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SAMPLES\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE::TYPE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE TYPE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:TYPE}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TYPE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE::WIDTH": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE WIDTH"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:WIDTH}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"WIDTH\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE_BINDING::UNIT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE_BINDING UNIT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:UNIT}\" \t\ttype=\"TEXTURE_BINDING\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"UNIT\" id=\"$2\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE_MATERIAL::COMPONENT_COUNT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE_MATERIAL COMPONENT_COUNT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:COMPONENT_COUNT}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"COMPONENT_COUNT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE_MATERIAL::DEPTH": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE_MATERIAL DEPTH"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DEPTH}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE_MATERIAL::DIMENSION": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE_MATERIAL DIMENSION"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:DIMENSION}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIMENSION\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE_MATERIAL::ELEMENT_SIZE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE_MATERIAL ELEMENT_SIZE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ELEMENT_SIZE}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ELEMENT_SIZE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE_MATERIAL::FORMAT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE_MATERIAL FORMAT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:FORMAT}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"FORMAT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE_MATERIAL::HEIGHT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE_MATERIAL HEIGHT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:HEIGHT}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"HEIGHT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE_MATERIAL::ID": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE_MATERIAL ID"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ID}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ID\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE_MATERIAL::INTERNAL_FORMAT": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE_MATERIAL INTERNAL_FORMAT"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:INTERNAL_FORMAT}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"INTERNAL_FORMAT\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE_MATERIAL::LAYERS": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE_MATERIAL LAYERS"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:LAYERS}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LAYERS\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE_MATERIAL::LEVELS": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE_MATERIAL LEVELS"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:LEVELS}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LEVELS\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE_MATERIAL::MIPMAP": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE_MATERIAL MIPMAP"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:MIPMAP}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"MIPMAP\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE_MATERIAL::SAMPLES": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE_MATERIAL SAMPLES"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:SAMPLES}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SAMPLES\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE_MATERIAL::TYPE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE_MATERIAL TYPE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:TYPE}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TYPE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::TEXTURE_MATERIAL::WIDTH": {
+    "scope": "xml",
+    "prefix": [
+      "valueof TEXTURE_MATERIAL WIDTH"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:WIDTH}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"WIDTH\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::VIEWPORT::ABSOLUT_ORIGIN": {
+    "scope": "xml",
+    "prefix": [
+      "valueof VIEWPORT ABSOLUT_ORIGIN"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ABSOLUT_ORIGIN}\" \t\ttype=\"VIEWPORT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ABSOLUT_ORIGIN\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::VIEWPORT::ABSOLUT_SIZE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof VIEWPORT ABSOLUT_SIZE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ABSOLUT_SIZE}\" \t\ttype=\"VIEWPORT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ABSOLUT_SIZE\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::VIEWPORT::CLEAR_COLOR": {
+    "scope": "xml",
+    "prefix": [
+      "valueof VIEWPORT CLEAR_COLOR"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:CLEAR_COLOR}\" \t\ttype=\"VIEWPORT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR_COLOR\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::VIEWPORT::FULL": {
+    "scope": "xml",
+    "prefix": [
+      "valueof VIEWPORT FULL"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:FULL}\" \t\ttype=\"VIEWPORT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"FULL\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::VIEWPORT::ORIGIN": {
+    "scope": "xml",
+    "prefix": [
+      "valueof VIEWPORT ORIGIN"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:ORIGIN}\" \t\ttype=\"VIEWPORT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ORIGIN\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::VIEWPORT::RATIO": {
+    "scope": "xml",
+    "prefix": [
+      "valueof VIEWPORT RATIO"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:RATIO}\" \t\ttype=\"VIEWPORT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"RATIO\" />"
+    ],
+    "description": ""
+  },
+  "nau::valueof::VIEWPORT::SIZE": {
+    "scope": "xml",
+    "prefix": [
+      "valueof VIEWPORT SIZE"
+    ],
+    "body": [
+      "<valueof uniform=\"${1:SIZE}\" \t\ttype=\"VIEWPORT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SIZE\" />"
+    ],
+    "description": ""
+  }
+}

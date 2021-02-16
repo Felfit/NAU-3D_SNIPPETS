@@ -1,0 +1,826 @@
+{
+    "arr" : [
+        {
+            "name": "BUFFER",
+            "vars": [
+                {
+                    "name": "CLEAR",
+                    "access" : "(read/write)", "data":"ENUM {NEVER   BY_FRAME   }", "default":"NEVER"
+                },
+                {
+                    "name": "DIM",
+                    "access" : "(read/write)", "data":"UIVEC3 ", "default":"(1, 1, 1)"
+                },
+                {
+                    "name": "ID",
+                    "access" : "(read only)", "data":"INT ", "default":"-1"
+                },
+                {
+                    "name": "SIZE",
+                    "access" : "(read/write)", "data":"UINT ", "default":"0"
+                },
+                {
+                    "name": "STRUCT_SIZE",
+                    "access" : "(read only)", "data":"UINT ", "default":"0"
+                }
+            ]
+        },
+        {
+            "name": "BUFFER_BINDING",
+            "vars": [
+                {
+                    "name": "BINDING_POINT",
+                    "access" : "(read/write)", "data":"INT ", "default":"-1"
+                },
+                {
+                    "name": "TYPE",
+                    "access" : "(read/write)", "data":"ENUM {ATOMIC_COUNTER   SHADER_STORAGE   }", "default":""
+                }
+            ]
+        },
+        {
+            "name": "BUFFER_MATERIAL",
+            "vars": [
+                {
+                    "name": "CLEAR",
+                    "access" : "(read/write)", "data":"ENUM {NEVER   BY_FRAME   }", "default":"NEVER"
+                },
+                {
+                    "name": "DIM",
+                    "access" : "(read/write)", "data":"UIVEC3 ", "default":"(1, 1, 1)"
+                },
+                {
+                    "name": "ID",
+                    "access" : "(read only)", "data":"INT ", "default":"-1"
+                },
+                {
+                    "name": "SIZE",
+                    "access" : "(read/write)", "data":"UINT ", "default":"0"
+                },
+                {
+                    "name": "STRUCT_SIZE",
+                    "access" : "(read only)", "data":"UINT ", "default":"0"
+                }
+            ]
+        },
+        {
+            "name": "CAMERA",
+            "vars": [
+                {
+                    "name": "BOTTOM",
+                    "access" : "(read/write)", "data":"FLOAT ", "default":"-1.000000"
+                },
+                {
+                    "name": "ELEVATION_ANGLE",
+                    "access" : "(read/write)", "data":"FLOAT ", "default":"0.000000"
+                },
+                {
+                    "name": "FAR",
+                    "access" : "(read/write)", "data":"FLOAT ", "default":"10000.000000"
+                },
+                {
+                    "name": "FOV",
+                    "access" : "(read/write)", "data":"FLOAT ", "default":"60.000000"
+                },
+                {
+                    "name": "LEFT",
+                    "access" : "(read/write)", "data":"FLOAT ", "default":"-1.000000"
+                },
+                {
+                    "name": "LOOK_AT_POINT",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.000000, 0.000000, -1.000000, 1.000000)"
+                },
+                {
+                    "name": "NEAR",
+                    "access" : "(read/write)", "data":"FLOAT ", "default":"1.000000"
+                },
+                {
+                    "name": "NORMALIZED_RIGHT",
+                    "access" : "(read only)", "data":"VEC4 ", "default":"(1.000000, 0.000000, 0.000000, 0.000000)"
+                },
+                {
+                    "name": "NORMALIZED_UP",
+                    "access" : "(read only)", "data":"VEC4 ", "default":"(0.000000, 1.000000, 0.000000, 0.000000)"
+                },
+                {
+                    "name": "POSITION",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.000000, 0.000000, 0.000000, 1.000000)"
+                },
+                {
+                    "name": "PROJECTION_INVERSE_MATRIX",
+                    "access" : "(read only)", "data":"MAT4 ", "default":"[ 1.000000, 0.000000, 0.000000, 0.000000 0.000000, 1.000000, 0.000000, 0.000000 0.000000, 0.000000, 1.000000, 0.000000 0.000000, 0.000000, 0.000000, 1.000000 ]"
+                },
+                {
+                    "name": "PROJECTION_MATRIX",
+                    "access" : "(read only)", "data":"MAT4 ", "default":"[ 1.000000, 0.000000, 0.000000, 0.000000 0.000000, 1.000000, 0.000000, 0.000000 0.000000, 0.000000, 1.000000, 0.000000 0.000000, 0.000000, 0.000000, 1.000000 ]"
+                },
+                {
+                    "name": "PROJECTION_VIEW_MATRIX",
+                    "access" : "(read only)", "data":"MAT4 ", "default":"[ 1.000000, 0.000000, 0.000000, 0.000000 0.000000, 1.000000, 0.000000, 0.000000 0.000000, 0.000000, 1.000000, 0.000000 0.000000, 0.000000, 0.000000, 1.000000 ]"
+                },
+                {
+                    "name": "RIGHT",
+                    "access" : "(read/write)", "data":"FLOAT ", "default":"1.000000"
+                },
+                {
+                    "name": "TOP",
+                    "access" : "(read/write)", "data":"FLOAT ", "default":"1.000000"
+                },
+                {
+                    "name": "TS05_PVM_MATRIX",
+                    "access" : "(read only)", "data":"MAT4 ", "default":"[ 1.000000, 0.000000, 0.000000, 0.000000 0.000000, 1.000000, 0.000000, 0.000000 0.000000, 0.000000, 1.000000, 0.000000 0.000000, 0.000000, 0.000000, 1.000000 ]"
+                },
+                {
+                    "name": "TYPE",
+                    "access" : "(read/write)", "data":"ENUM {PERSPECTIVE   ORTHO   }", "default":"PERSPECTIVE"
+                },
+                {
+                    "name": "UP",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.000000, 1.000000, 0.000000, 0.000000)"
+                },
+                {
+                    "name": "VIEW",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.000000, 0.000000, -1.000000, 0.000000)"
+                },
+                {
+                    "name": "VIEW_INVERSE_MATRIX",
+                    "access" : "(read only)", "data":"MAT4 ", "default":"[ 1.000000, 0.000000, 0.000000, 0.000000 0.000000, 1.000000, 0.000000, 0.000000 0.000000, 0.000000, 1.000000, 0.000000 0.000000, 0.000000, 0.000000, 1.000000 ]"
+                },
+                {
+                    "name": "VIEW_MATRIX",
+                    "access" : "(read only)", "data":"MAT4 ", "default":"[ 1.000000, 0.000000, 0.000000, 0.000000 0.000000, 1.000000, 0.000000, 0.000000 0.000000, 0.000000, 1.000000, 0.000000 0.000000, 0.000000, 0.000000, 1.000000 ]"
+                },
+                {
+                    "name": "ZX_ANGLE",
+                    "access" : "(read/write)", "data":"FLOAT ", "default":"3.141593"
+                }
+            ]
+        },
+        {
+            "name": "COLOR",
+            "vars": [
+                {
+                    "name": "AMBIENT",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.200000, 0.200000, 0.200000, 1.000000)"
+                },
+                {
+                    "name": "DIFFUSE",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.800000, 0.800000, 0.800000, 1.000000)"
+                },
+                {
+                    "name": "EMISSION",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.000000, 0.000000, 0.000000, 1.000000)"
+                },
+                {
+                    "name": "SHININESS",
+                    "access" : "(read/write)", "data":"FLOAT ", "default":"0.000000"
+                },
+                {
+                    "name": "SPECULAR",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.000000, 0.000000, 0.000000, 1.000000)"
+                }
+            ]
+        },
+        {
+            "name": "IMAGE_TEXTURE",
+            "vars": [
+                {
+                    "name": "ACCESS",
+                    "access" : "(read/write)", "data":"ENUM {READ_ONLY   WRITE_ONLY   READ_WRITE   }", "default":""
+                },
+                {
+                    "name": "CLEAR",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"false"
+                },
+                {
+                    "name": "INTERNAL_FORMAT",
+                    "access" : "(read/write)", "data":"ENUM {RGBA   RGBA16   DEPTH_COMPONENT16   DEPTH_COMPONENT24   R8   R16   RG8   RG16   R16F   R32F   RG16F   RG32F   R8I   R8UI   R16I   R16UI   R32I   R32UI   RG8I   RG8UI   RG16I   RG16UI   RG32I   RG32UI   RGBA32F   RGBA16F   DEPTH_COMPONENT32F   DEPTH32F_STENCIL8   RGBA32UI   RGBA16UI   RGBA8UI   RGBA32I   RGBA16I   RGBA8I   }", "default":""
+                },
+                {
+                    "name": "LEVEL",
+                    "access" : "(read/write)", "data":"UINT ", "default":"0"
+                },
+                {
+                    "name": "TEX_ID",
+                    "access" : "(read/write)", "data":"UINT ", "default":"0"
+                },
+                {
+                    "name": "UNIT",
+                    "access" : "(read only)", "data":"INT ", "default":"-1"
+                }
+            ]
+        },
+        {
+            "name": "LIGHT",
+            "vars": [
+                {
+                    "name": "AMBIENT",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.200000, 0.200000, 0.200000, 1.000000)"
+                },
+                {
+                    "name": "COLOR",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(1.000000, 1.000000, 1.000000, 1.000000)"
+                },
+                {
+                    "name": "CONSTANT_ATT",
+                    "access" : "(read/write)", "data":"FLOAT ", "default":"1.000000"
+                },
+                {
+                    "name": "DIRECTION",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.000000, 0.000000, -1.000000, 0.000000)"
+                },
+                {
+                    "name": "ENABLED",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"true"
+                },
+                {
+                    "name": "ID",
+                    "access" : "(read only)", "data":"INT ", "default":"-1"
+                },
+                {
+                    "name": "LINEAR_ATT",
+                    "access" : "(read/write)", "data":"FLOAT ", "default":"0.000000"
+                },
+                {
+                    "name": "NORMALIZED_DIRECTION",
+                    "access" : "(read only)", "data":"VEC4 ", "default":"(0.000000, 0.000000, -1.000000, 0.000000)"
+                },
+                {
+                    "name": "POSITION",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.000000, 0.000000, 0.000000, 1.000000)"
+                },
+                {
+                    "name": "QUADRATIC_ATT",
+                    "access" : "(read/write)", "data":"FLOAT ", "default":"0.000000"
+                },
+                {
+                    "name": "SPOT_CUTOFF",
+                    "access" : "(read/write)", "data":"FLOAT ", "default":"180.000000"
+                },
+                {
+                    "name": "SPOT_DIRECTION",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.000000, 0.000000, -1.000000, 0.000000)"
+                },
+                {
+                    "name": "SPOT_EXPONENT",
+                    "access" : "(read/write)", "data":"FLOAT ", "default":"0.000000"
+                }
+            ]
+        },
+        {
+            "name": "PASS",
+            "vars": [
+                {
+                    "name": "BUFFER_DRAW_INDIRECT",
+                    "access" : "(read only)", "data":"UINT ", "default":"0"
+                },
+                {
+                    "name": "COLOR_CLEAR",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"true"
+                },
+                {
+                    "name": "COLOR_CLEAR_VALUE",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.000000, 0.000000, 0.000000, 0.000000)"
+                },
+                {
+                    "name": "COLOR_ENABLE",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"true"
+                },
+                {
+                    "name": "DEPTH_CLAMPING",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"false"
+                },
+                {
+                    "name": "DEPTH_CLEAR",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"true"
+                },
+                {
+                    "name": "DEPTH_CLEAR_VALUE",
+                    "access" : "(read/write)", "data":"FLOAT ", "default":"1.000000"
+                },
+                {
+                    "name": "DEPTH_ENABLE",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"true"
+                },
+                {
+                    "name": "DEPTH_FUNC",
+                    "access" : "(read/write)", "data":"ENUM {LESS   NEVER   ALWAYS   LEQUAL   EQUAL   GEQUAL   GREATER   NOT_EQUAL   }", "default":"LESS"
+                },
+                {
+                    "name": "DEPTH_MASK",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"true"
+                },
+                {
+                    "name": "DIM_X",
+                    "access" : "(read/write)", "data":"UINT ", "default":"1"
+                },
+                {
+                    "name": "DIM_Y",
+                    "access" : "(read/write)", "data":"UINT ", "default":"1"
+                },
+                {
+                    "name": "DIM_Z",
+                    "access" : "(read/write)", "data":"UINT ", "default":"1"
+                },
+                {
+                    "name": "INSTANCE_COUNT",
+                    "access" : "(read/write)", "data":"UINT ", "default":"0"
+                },
+                {
+                    "name": "RAY_COUNT",
+                    "access" : "(read/write)", "data":"INT ", "default":"-1"
+                },
+                {
+                    "name": "RUN_MODE",
+                    "access" : "(read only)", "data":"ENUM {DONT_RUN   RUN_ALWAYS   SKIP_FIRST_FRAME   RUN_ONCE   RUN_EVEN   RUN_ODD   }", "default":"RUN_ALWAYS"
+                },
+                {
+                    "name": "STENCIL_CLEAR",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"true"
+                },
+                {
+                    "name": "STENCIL_CLEAR_VALUE",
+                    "access" : "(read/write)", "data":"INT ", "default":"0"
+                },
+                {
+                    "name": "STENCIL_DEPTH_FAIL",
+                    "access" : "(read/write)", "data":"ENUM {KEEP   ZERO   REPLACE   INCR   INCR_WRAP   DECR   DECR_WRAP   INVERT   }", "default":"KEEP"
+                },
+                {
+                    "name": "STENCIL_DEPTH_PASS",
+                    "access" : "(read/write)", "data":"ENUM {KEEP   ZERO   REPLACE   INCR   INCR_WRAP   DECR   DECR_WRAP   INVERT   }", "default":"KEEP"
+                },
+                {
+                    "name": "STENCIL_ENABLE",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"false"
+                },
+                {
+                    "name": "STENCIL_FAIL",
+                    "access" : "(read/write)", "data":"ENUM {KEEP   ZERO   REPLACE   INCR   INCR_WRAP   DECR   DECR_WRAP   INVERT   }", "default":"KEEP"
+                },
+                {
+                    "name": "STENCIL_FUNC",
+                    "access" : "(read/write)", "data":"ENUM {LESS   NEVER   ALWAYS   LEQUAL   EQUAL   GEQUAL   GREATER   NOT_EQUAL   }", "default":"ALWAYS"
+                },
+                {
+                    "name": "STENCIL_OP_MASK",
+                    "access" : "(read/write)", "data":"UINT ", "default":"255"
+                },
+                {
+                    "name": "STENCIL_OP_REF",
+                    "access" : "(read/write)", "data":"INT ", "default":"0"
+                },
+                {
+                    "name": "TEST_MODE",
+                    "access" : "(read only)", "data":"ENUM {RUN_IF   RUN_WHILE   }", "default":"RUN_IF"
+                }
+            ]
+        },
+        {
+            "name": "PASS_POST_PROCESS_BUFFER",
+            "vars": [
+                {
+                    "name": "CLEAR",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"false"
+                }
+            ]
+        },
+        {
+            "name": "PASS_POST_PROCESS_TEXTURE",
+            "vars": [
+                {
+                    "name": "CLEAR",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"false"
+                },
+                {
+                    "name": "CLEAR_LEVEL",
+                    "access" : "(read/write)", "data":"INT ", "default":"-1"
+                },
+                {
+                    "name": "MIPMAP",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"false"
+                }
+            ]
+        },
+        {
+            "name": "PASS_PRE_PROCESS_BUFFER",
+            "vars": [
+                {
+                    "name": "CLEAR",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"false"
+                }
+            ]
+        },
+        {
+            "name": "PASS_PRE_PROCESS_TEXTURE",
+            "vars": [
+                {
+                    "name": "CLEAR",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"false"
+                },
+                {
+                    "name": "CLEAR_LEVEL",
+                    "access" : "(read/write)", "data":"INT ", "default":"-1"
+                },
+                {
+                    "name": "MIPMAP",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"false"
+                }
+            ]
+        },
+        {
+            "name": "RENDERER",
+            "vars": [
+                {
+                    "name": "BUFFER_DRAW_INDIRECT",
+                    "access" : "(read/write)", "data":"UINT ", "default":"0"
+                },
+                {
+                    "name": "DEBUG_DRAW_CALL",
+                    "access" : "(read only)", "data":"BOOL ", "default":"false"
+                },
+                {
+                    "name": "FRAME_COUNT",
+                    "access" : "(read only)", "data":"UINT ", "default":"0"
+                },
+                {
+                    "name": "INSTANCE_COUNT",
+                    "access" : "(read/write)", "data":"UINT ", "default":"0"
+                },
+                {
+                    "name": "LIGHT_COUNT",
+                    "access" : "(read only)", "data":"INT ", "default":"0"
+                },
+                {
+                    "name": "MODEL",
+                    "access" : "(read only)", "data":"MAT4 ", "default":"[ 1.000000, 0.000000, 0.000000, 0.000000 0.000000, 1.000000, 0.000000, 0.000000 0.000000, 0.000000, 1.000000, 0.000000 0.000000, 0.000000, 0.000000, 1.000000 ]"
+                },
+                {
+                    "name": "MOUSE_LEFT_CLICK",
+                    "access" : "(read/write)", "data":"IVEC2 ", "default":"(0, 0)"
+                },
+                {
+                    "name": "MOUSE_MIDDLE_CLICK",
+                    "access" : "(read/write)", "data":"IVEC2 ", "default":"(0, 0)"
+                },
+                {
+                    "name": "MOUSE_RIGHT_CLICK",
+                    "access" : "(read/write)", "data":"IVEC2 ", "default":"(0, 0)"
+                },
+                {
+                    "name": "NORMAL",
+                    "access" : "(read only)", "data":"MAT3 ", "default":"[ 1.000000, 0.000000, 0.000000 0.000000, 1.000000, 0.000000 0.000000, 0.000000, 1.000000 ]"
+                },
+                {
+                    "name": "PROJECTION",
+                    "access" : "(read only)", "data":"MAT4 ", "default":"[ 1.000000, 0.000000, 0.000000, 0.000000 0.000000, 1.000000, 0.000000, 0.000000 0.000000, 0.000000, 1.000000, 0.000000 0.000000, 0.000000, 0.000000, 1.000000 ]"
+                },
+                {
+                    "name": "PROJECTION_VIEW",
+                    "access" : "(read only)", "data":"MAT4 ", "default":"[ 1.000000, 0.000000, 0.000000, 0.000000 0.000000, 1.000000, 0.000000, 0.000000 0.000000, 0.000000, 1.000000, 0.000000 0.000000, 0.000000, 0.000000, 1.000000 ]"
+                },
+                {
+                    "name": "PROJECTION_VIEW_MODEL",
+                    "access" : "(read only)", "data":"MAT4 ", "default":"[ 1.000000, 0.000000, 0.000000, 0.000000 0.000000, 1.000000, 0.000000, 0.000000 0.000000, 0.000000, 1.000000, 0.000000 0.000000, 0.000000, 0.000000, 1.000000 ]"
+                },
+                {
+                    "name": "TEXTURE",
+                    "access" : "(read only)", "data":"MAT4 ", "default":"[ 1.000000, 0.000000, 0.000000, 0.000000 0.000000, 1.000000, 0.000000, 0.000000 0.000000, 0.000000, 1.000000, 0.000000 0.000000, 0.000000, 0.000000, 1.000000 ]"
+                },
+                {
+                    "name": "TEXTURE_COUNT",
+                    "access" : "(read only)", "data":"INT ", "default":"0"
+                },
+                {
+                    "name": "TIMER",
+                    "access" : "(read only)", "data":"FLOAT ", "default":"0.000000"
+                },
+                {
+                    "name": "TS05_PVM",
+                    "access" : "(read only)", "data":"MAT4 ", "default":"[ 1.000000, 0.000000, 0.000000, 0.000000 0.000000, 1.000000, 0.000000, 0.000000 0.000000, 0.000000, 1.000000, 0.000000 0.000000, 0.000000, 0.000000, 1.000000 ]"
+                },
+                {
+                    "name": "VIEW",
+                    "access" : "(read only)", "data":"MAT4 ", "default":"[ 1.000000, 0.000000, 0.000000, 0.000000 0.000000, 1.000000, 0.000000, 0.000000 0.000000, 0.000000, 1.000000, 0.000000 0.000000, 0.000000, 0.000000, 1.000000 ]"
+                },
+                {
+                    "name": "VIEW_MODEL",
+                    "access" : "(read only)", "data":"MAT4 ", "default":"[ 1.000000, 0.000000, 0.000000, 0.000000 0.000000, 1.000000, 0.000000, 0.000000 0.000000, 0.000000, 1.000000, 0.000000 0.000000, 0.000000, 0.000000, 1.000000 ]"
+                }
+            ]
+        },
+        {
+            "name": "RENDER_TARGET",
+            "vars": [
+                {
+                    "name": "CLEAR_VALUES",
+                    "access" : "(read/write)", "data":"VEC4 [(0.000000, 0.000000, 0.000000, 0.000000), (1.000000, 1.000000, 1.000000, 1.000000)]", "default":"(0.000000, 0.000000, 0.000000, 0.000000)"
+                },
+                {
+                    "name": "LAYERS",
+                    "access" : "(read/write)", "data":"UINT ", "default":"1"
+                },
+                {
+                    "name": "LEVELS",
+                    "access" : "(read/write)", "data":"UINT ", "default":"0"
+                },
+                {
+                    "name": "SAMPLES",
+                    "access" : "(read/write)", "data":"UINT ", "default":"0"
+                },
+                {
+                    "name": "SIZE",
+                    "access" : "(read/write)", "data":"UIVEC2 ", "default":"(0, 0)"
+                }
+            ]
+        },
+        {
+            "name": "SCENE",
+            "vars": [
+                {
+                    "name": "BB_CENTER",
+                    "access" : "(read only)", "data":"VEC3 ", "default":"(0.000000, 0.000000, 0.000000)"
+                },
+                {
+                    "name": "BB_MAX",
+                    "access" : "(read only)", "data":"VEC3 ", "default":"(-1.000000, -1.000000, -1.000000)"
+                },
+                {
+                    "name": "BB_MIN",
+                    "access" : "(read only)", "data":"VEC3 ", "default":"(1.000000, 1.000000, 1.000000)"
+                },
+                {
+                    "name": "ROTATE",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.000000, 1.000000, 0.000000, 0.000000)"
+                },
+                {
+                    "name": "SCALE",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(1.000000, 1.000000, 1.000000, 1.000000)"
+                },
+                {
+                    "name": "TRANSFORM_ORDER",
+                    "access" : "(read/write)", "data":"ENUM {T_R_S   T_S_R   R_T_S   R_S_T   S_R_T   S_T_R   }", "default":"T_R_S"
+                },
+                {
+                    "name": "TRANSLATE",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.000000, 0.000000, 0.000000, 0.000000)"
+                }
+            ]
+        },
+        {
+            "name": "SCENE_OBJECT",
+            "vars": [
+                {
+                    "name": "ROTATE",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.000000, 0.000000, 1.000000, 0.000000)"
+                },
+                {
+                    "name": "SCALE",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(1.000000, 1.000000, 1.000000, 1.000000)"
+                },
+                {
+                    "name": "TRANSFORM_ORDER",
+                    "access" : "(read/write)", "data":"ENUM {T_R_S   T_S_R   R_T_S   R_S_T   S_R_T   S_T_R   }", "default":"T_R_S"
+                },
+                {
+                    "name": "TRANSLATE",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.000000, 0.000000, 0.000000, 0.000000)"
+                }
+            ]
+        },
+        {
+            "name": "SPHERE",
+            "vars": [
+                {
+                    "name": "SLICES",
+                    "access" : "(read/write)", "data":"UINT [3, ]", "default":"10"
+                },
+                {
+                    "name": "STACKS",
+                    "access" : "(read/write)", "data":"UINT [2, ]", "default":"10"
+                }
+            ]
+        },
+        {
+            "name": "STATE",
+            "vars": [
+                {
+                    "name": "BLEND",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"false"
+                },
+                {
+                    "name": "BLEND_COLOR",
+                    "access" : "(read/write)", "data":"VEC4 ", "default":"(0.000000, 0.000000, 0.000000, 0.000000)"
+                },
+                {
+                    "name": "BLEND_DST",
+                    "access" : "(read/write)", "data":"ENUM {ZERO   ONE   SRC_COLOR   ONE_MINUS_SRC_COLOR   DST_COLOR   ONE_MINUS_DST_COLOR   SRC_ALPHA   ONE_MINUS_SRC_ALPHA   DST_ALPHA   ONE_MINUS_DST_ALPHA   SRC_ALPHA_SATURATE   CONSTANT_COLOR   ONE_MINUS_CONSTANT_COLOR   CONSTANT_ALPHA   ONE_MINUS_CONSTANT_ALPHA   }", "default":"ZERO"
+                },
+                {
+                    "name": "BLEND_EQUATION",
+                    "access" : "(read/write)", "data":"ENUM {ADD   SUBTRACT   REVERSE_SUBTRACT   MIN   MAX   }", "default":"ADD"
+                },
+                {
+                    "name": "BLEND_SRC",
+                    "access" : "(read/write)", "data":"ENUM {ZERO   ONE   SRC_COLOR   ONE_MINUS_SRC_COLOR   DST_COLOR   ONE_MINUS_DST_COLOR   SRC_ALPHA   ONE_MINUS_SRC_ALPHA   DST_ALPHA   ONE_MINUS_DST_ALPHA   SRC_ALPHA_SATURATE   CONSTANT_COLOR   ONE_MINUS_CONSTANT_COLOR   CONSTANT_ALPHA   ONE_MINUS_CONSTANT_ALPHA   }", "default":"ONE"
+                },
+                {
+                    "name": "COLOR_MASK_B4",
+                    "access" : "(read/write)", "data":"BVEC4 ", "default":"(1, 1, 1, 1)"
+                },
+                {
+                    "name": "CULL_FACE",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"true"
+                },
+                {
+                    "name": "CULL_TYPE",
+                    "access" : "(read/write)", "data":"ENUM {FRONT   BACK   FRONT_AND_BACK   }", "default":"BACK"
+                },
+                {
+                    "name": "DEPTH_FUNC",
+                    "access" : "(read/write)", "data":"ENUM {LESS   NEVER   ALWAYS   LEQUAL   EQUAL   GEQUAL   GREATER   NOT_EQUAL   }", "default":"LESS"
+                },
+                {
+                    "name": "DEPTH_MASK",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"true"
+                },
+                {
+                    "name": "DEPTH_TEST",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"true"
+                },
+                {
+                    "name": "ORDER",
+                    "access" : "(read/write)", "data":"INT ", "default":"0"
+                },
+                {
+                    "name": "ORDER_TYPE",
+                    "access" : "(read/write)", "data":"ENUM {FRONT_TO_BACK   BACK_TO_FRONT   }", "default":"FRONT_TO_BACK"
+                }
+            ]
+        },
+        {
+            "name": "TEXTURE",
+            "vars": [
+                {
+                    "name": "COMPONENT_COUNT",
+                    "access" : "(read only)", "data":"INT ", "default":"0"
+                },
+                {
+                    "name": "DEPTH",
+                    "access" : "(read/write)", "data":"INT ", "default":"1"
+                },
+                {
+                    "name": "DIMENSION",
+                    "access" : "(read only)", "data":"ENUM {TEXTURE_2D   TEXTURE_3D   TEXTURE_2D_MULTISAMPLE_ARRAY   TEXTURE_2D_ARRAY   TEXTURE_2D_MULTISAMPLE   TEXTURE_CUBE_MAP   }", "default":"TEXTURE_2D"
+                },
+                {
+                    "name": "ELEMENT_SIZE",
+                    "access" : "(read only)", "data":"INT ", "default":"0"
+                },
+                {
+                    "name": "FORMAT",
+                    "access" : "(read only)", "data":"ENUM {DEPTH_COMPONENT   RED   RGB   RGBA   RG   DEPTH32F_STENCIL8   RED   }", "default":"RGBA"
+                },
+                {
+                    "name": "HEIGHT",
+                    "access" : "(read/write)", "data":"INT ", "default":"1"
+                },
+                {
+                    "name": "ID",
+                    "access" : "(read only)", "data":"INT ", "default":"-1"
+                },
+                {
+                    "name": "INTERNAL_FORMAT",
+                    "access" : "(read/write)", "data":"ENUM {RGBA   RGBA16   DEPTH_COMPONENT16   DEPTH_COMPONENT24   R8   R16   RG8   RG16   R16F   R32F   RG16F   RG32F   R8I   R8UI   R16I   R16UI   R32I   R32UI   RG8I   RG8UI   RG16I   RG16UI   RG32I   RG32UI   RGBA32F   RGBA16F   DEPTH_COMPONENT32F   DEPTH32F_STENCIL8   RGBA32UI   RGBA16UI   RGBA8UI   RGBA32I   RGBA16I   RGBA8I   }", "default":"RGBA"
+                },
+                {
+                    "name": "LAYERS",
+                    "access" : "(read/write)", "data":"INT ", "default":"1"
+                },
+                {
+                    "name": "LEVELS",
+                    "access" : "(read/write)", "data":"INT ", "default":"0"
+                },
+                {
+                    "name": "MIPMAP",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"false"
+                },
+                {
+                    "name": "SAMPLES",
+                    "access" : "(read/write)", "data":"INT ", "default":"0"
+                },
+                {
+                    "name": "TYPE",
+                    "access" : "(read only)", "data":"ENUM {BYTE   UNSIGNED_BYTE   SHORT   UNSIGNED_SHORT   INT   UNSIGNED_INT   FLOAT   UNSIGNED_INT_8_8_8_8_REV   UNSIGNED_INT_24_8   FLOAT_32_UNSIGNED_INT_24_8_REV   }", "default":"UNSIGNED_BYTE"
+                },
+                {
+                    "name": "WIDTH",
+                    "access" : "(read/write)", "data":"INT ", "default":"1"
+                }
+            ]
+        },
+        {
+            "name": "TEXTURE_BINDING",
+            "vars": [
+                {
+                    "name": "UNIT",
+                    "access" : "(read/write)", "data":"INT ", "default":"0"
+                }
+            ]
+        },
+        {
+            "name": "TEXTURE_MATERIAL",
+            "vars": [
+                {
+                    "name": "COMPONENT_COUNT",
+                    "access" : "(read only)", "data":"INT ", "default":"0"
+                },
+                {
+                    "name": "DEPTH",
+                    "access" : "(read/write)", "data":"INT ", "default":"1"
+                },
+                {
+                    "name": "DIMENSION",
+                    "access" : "(read only)", "data":"ENUM {TEXTURE_2D   TEXTURE_3D   TEXTURE_2D_MULTISAMPLE_ARRAY   TEXTURE_2D_ARRAY   TEXTURE_2D_MULTISAMPLE   TEXTURE_CUBE_MAP   }", "default":"TEXTURE_2D"
+                },
+                {
+                    "name": "ELEMENT_SIZE",
+                    "access" : "(read only)", "data":"INT ", "default":"0"
+                },
+                {
+                    "name": "FORMAT",
+                    "access" : "(read only)", "data":"ENUM {DEPTH_COMPONENT   RED   RGB   RGBA   RG   DEPTH32F_STENCIL8   RED   }", "default":"RGBA"
+                },
+                {
+                    "name": "HEIGHT",
+                    "access" : "(read/write)", "data":"INT ", "default":"1"
+                },
+                {
+                    "name": "ID",
+                    "access" : "(read only)", "data":"INT ", "default":"-1"
+                },
+                {
+                    "name": "INTERNAL_FORMAT",
+                    "access" : "(read/write)", "data":"ENUM {RGBA   RGBA16   DEPTH_COMPONENT16   DEPTH_COMPONENT24   R8   R16   RG8   RG16   R16F   R32F   RG16F   RG32F   R8I   R8UI   R16I   R16UI   R32I   R32UI   RG8I   RG8UI   RG16I   RG16UI   RG32I   RG32UI   RGBA32F   RGBA16F   DEPTH_COMPONENT32F   DEPTH32F_STENCIL8   RGBA32UI   RGBA16UI   RGBA8UI   RGBA32I   RGBA16I   RGBA8I   }", "default":"RGBA"
+                },
+                {
+                    "name": "LAYERS",
+                    "access" : "(read/write)", "data":"INT ", "default":"1"
+                },
+                {
+                    "name": "LEVELS",
+                    "access" : "(read/write)", "data":"INT ", "default":"0"
+                },
+                {
+                    "name": "MIPMAP",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"false"
+                },
+                {
+                    "name": "SAMPLES",
+                    "access" : "(read/write)", "data":"INT ", "default":"0"
+                },
+                {
+                    "name": "TYPE",
+                    "access" : "(read only)", "data":"ENUM {BYTE   UNSIGNED_BYTE   SHORT   UNSIGNED_SHORT   INT   UNSIGNED_INT   FLOAT   UNSIGNED_INT_8_8_8_8_REV   UNSIGNED_INT_24_8   FLOAT_32_UNSIGNED_INT_24_8_REV   }", "default":"UNSIGNED_BYTE"
+                },
+                {
+                    "name": "WIDTH",
+                    "access" : "(read/write)", "data":"INT ", "default":"1"
+                }
+            ]
+        },
+        {
+            "name": "VIEWPORT",
+            "vars": [
+                {
+                    "name": "ABSOLUT_ORIGIN",
+                    "access" : "(read only)", "data":"VEC2 [(0.000000, 0.000000), ]", "default":"(0.000000, 0.000000)"
+                },
+                {
+                    "name": "ABSOLUT_SIZE",
+                    "access" : "(read only)", "data":"VEC2 [(0.000000, 0.000000), ]", "default":"(1.000000, 1.000000)"
+                },
+                {
+                    "name": "CLEAR_COLOR",
+                    "access" : "(read/write)", "data":"VEC4 [(0.000000, 0.000000, 0.000000, 0.000000), (1.000000, 1.000000, 1.000000, 1.000000)]", "default":"(0.000000, 0.000000, 0.000000, 0.000000)"
+                },
+                {
+                    "name": "FULL",
+                    "access" : "(read/write)", "data":"BOOL ", "default":"true"
+                },
+                {
+                    "name": "ORIGIN",
+                    "access" : "(read/write)", "data":"VEC2 [(0.000000, 0.000000), ]", "default":"(0.000000, 0.000000)"
+                },
+                {
+                    "name": "RATIO",
+                    "access" : "(read/write)", "data":"FLOAT [0.000000, ]", "default":"0.000000"
+                },
+                {
+                    "name": "SIZE",
+                    "access" : "(read/write)", "data":"VEC2 [(0.000000, 0.000000), ]", "default":"(1.000000, 1.000000)"
+                }
+            ]
+        }
+    ]
+}
