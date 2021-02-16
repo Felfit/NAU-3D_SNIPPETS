@@ -5,4 +5,7 @@ How to create user snippets: [Here](https://code.visualstudio.com/docs/editor/us
 
 Some of the automated snippets might be missing fields. 
 
-NAU_COMPONENTS.json is a json file extracted from the documentation -> [here](https://nau3d.di.uminho.pt/tutorial/specifying-objects-components-and-contexts/).
+[NAU_COMPONENTS.json](NAU_COMPONENTS.json) is a json file extracted from the documentation -> [here](https://nau3d.di.uminho.pt/tutorial/specifying-objects-components-and-contexts/).
+
+![Before](screenshots/before.png)
+![After](screenshots/after.png)
