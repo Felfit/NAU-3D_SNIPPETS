@@ -2,6 +2,7 @@
 A repository of vscode user snippets for [NAU-3D](https://github.com/Nau3D/nau)
 
 How to create user snippets: [Here](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets) 
+
 Or insert the file in the .vscode folder in your project.
 
 Some of the automated snippets might be missing fields. 
