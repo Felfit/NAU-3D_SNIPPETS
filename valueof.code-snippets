@@ -7,7 +7,10 @@
     "body": [
       "<valueof uniform=\"${1:CLEAR}\" \t\ttype=\"BUFFER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of BUFFER CLEAR"
+    ]
   },
   "nau::valueof::BUFFER::DIM": {
     "scope": "xml",
@@ -17,7 +20,10 @@
     "body": [
       "<valueof uniform=\"${1:DIM}\" \t\ttype=\"BUFFER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIM\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of BUFFER DIM"
+    ]
   },
   "nau::valueof::BUFFER::ID": {
     "scope": "xml",
@@ -27,7 +33,10 @@
     "body": [
       "<valueof uniform=\"${1:ID}\" \t\ttype=\"BUFFER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ID\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of BUFFER ID"
+    ]
   },
   "nau::valueof::BUFFER::SIZE": {
     "scope": "xml",
@@ -37,7 +46,10 @@
     "body": [
       "<valueof uniform=\"${1:SIZE}\" \t\ttype=\"BUFFER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SIZE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of BUFFER SIZE"
+    ]
   },
   "nau::valueof::BUFFER::STRUCT_SIZE": {
     "scope": "xml",
@@ -47,7 +59,10 @@
     "body": [
       "<valueof uniform=\"${1:STRUCT_SIZE}\" \t\ttype=\"BUFFER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STRUCT_SIZE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of BUFFER STRUCT_SIZE"
+    ]
   },
   "nau::valueof::BUFFER_BINDING::BINDING_POINT": {
     "scope": "xml",
@@ -57,7 +72,10 @@
     "body": [
       "<valueof uniform=\"${1:BINDING_POINT}\" \t\ttype=\"BUFFER_BINDING\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BINDING_POINT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of BUFFER_BINDING BINDING_POINT"
+    ]
   },
   "nau::valueof::BUFFER_BINDING::TYPE": {
     "scope": "xml",
@@ -67,7 +85,10 @@
     "body": [
       "<valueof uniform=\"${1:TYPE}\" \t\ttype=\"BUFFER_BINDING\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TYPE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of BUFFER_BINDING TYPE"
+    ]
   },
   "nau::valueof::BUFFER_MATERIAL::CLEAR": {
     "scope": "xml",
@@ -77,7 +98,10 @@
     "body": [
       "<valueof uniform=\"${1:CLEAR}\" \t\ttype=\"BUFFER_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of BUFFER_MATERIAL CLEAR"
+    ]
   },
   "nau::valueof::BUFFER_MATERIAL::DIM": {
     "scope": "xml",
@@ -87,7 +111,10 @@
     "body": [
       "<valueof uniform=\"${1:DIM}\" \t\ttype=\"BUFFER_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIM\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of BUFFER_MATERIAL DIM"
+    ]
   },
   "nau::valueof::BUFFER_MATERIAL::ID": {
     "scope": "xml",
@@ -97,7 +124,10 @@
     "body": [
       "<valueof uniform=\"${1:ID}\" \t\ttype=\"BUFFER_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ID\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of BUFFER_MATERIAL ID"
+    ]
   },
   "nau::valueof::BUFFER_MATERIAL::SIZE": {
     "scope": "xml",
@@ -107,7 +137,10 @@
     "body": [
       "<valueof uniform=\"${1:SIZE}\" \t\ttype=\"BUFFER_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SIZE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of BUFFER_MATERIAL SIZE"
+    ]
   },
   "nau::valueof::BUFFER_MATERIAL::STRUCT_SIZE": {
     "scope": "xml",
@@ -117,7 +150,10 @@
     "body": [
       "<valueof uniform=\"${1:STRUCT_SIZE}\" \t\ttype=\"BUFFER_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STRUCT_SIZE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of BUFFER_MATERIAL STRUCT_SIZE"
+    ]
   },
   "nau::valueof::CAMERA::BOTTOM": {
     "scope": "xml",
@@ -127,7 +163,10 @@
     "body": [
       "<valueof uniform=\"${1:BOTTOM}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BOTTOM\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA BOTTOM"
+    ]
   },
   "nau::valueof::CAMERA::ELEVATION_ANGLE": {
     "scope": "xml",
@@ -137,7 +176,10 @@
     "body": [
       "<valueof uniform=\"${1:ELEVATION_ANGLE}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ELEVATION_ANGLE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA ELEVATION_ANGLE"
+    ]
   },
   "nau::valueof::CAMERA::FAR": {
     "scope": "xml",
@@ -147,7 +189,10 @@
     "body": [
       "<valueof uniform=\"${1:FAR}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"FAR\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA FAR"
+    ]
   },
   "nau::valueof::CAMERA::FOV": {
     "scope": "xml",
@@ -157,7 +202,10 @@
     "body": [
       "<valueof uniform=\"${1:FOV}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"FOV\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA FOV"
+    ]
   },
   "nau::valueof::CAMERA::LEFT": {
     "scope": "xml",
@@ -167,7 +215,10 @@
     "body": [
       "<valueof uniform=\"${1:LEFT}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LEFT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA LEFT"
+    ]
   },
   "nau::valueof::CAMERA::LOOK_AT_POINT": {
     "scope": "xml",
@@ -177,7 +228,10 @@
     "body": [
       "<valueof uniform=\"${1:LOOK_AT_POINT}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LOOK_AT_POINT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA LOOK_AT_POINT"
+    ]
   },
   "nau::valueof::CAMERA::NEAR": {
     "scope": "xml",
@@ -187,7 +241,10 @@
     "body": [
       "<valueof uniform=\"${1:NEAR}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"NEAR\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA NEAR"
+    ]
   },
   "nau::valueof::CAMERA::NORMALIZED_RIGHT": {
     "scope": "xml",
@@ -197,7 +254,10 @@
     "body": [
       "<valueof uniform=\"${1:NORMALIZED_RIGHT}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"NORMALIZED_RIGHT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA NORMALIZED_RIGHT"
+    ]
   },
   "nau::valueof::CAMERA::NORMALIZED_UP": {
     "scope": "xml",
@@ -207,7 +267,10 @@
     "body": [
       "<valueof uniform=\"${1:NORMALIZED_UP}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"NORMALIZED_UP\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA NORMALIZED_UP"
+    ]
   },
   "nau::valueof::CAMERA::POSITION": {
     "scope": "xml",
@@ -217,7 +280,10 @@
     "body": [
       "<valueof uniform=\"${1:POSITION}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"POSITION\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA POSITION"
+    ]
   },
   "nau::valueof::CAMERA::PROJECTION_INVERSE_MATRIX": {
     "scope": "xml",
@@ -227,7 +293,10 @@
     "body": [
       "<valueof uniform=\"${1:PROJECTION_INVERSE_MATRIX}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"PROJECTION_INVERSE_MATRIX\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA PROJECTION_INVERSE_MATRIX"
+    ]
   },
   "nau::valueof::CAMERA::PROJECTION_MATRIX": {
     "scope": "xml",
@@ -237,7 +306,10 @@
     "body": [
       "<valueof uniform=\"${1:PROJECTION_MATRIX}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"PROJECTION_MATRIX\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA PROJECTION_MATRIX"
+    ]
   },
   "nau::valueof::CAMERA::PROJECTION_VIEW_MATRIX": {
     "scope": "xml",
@@ -247,7 +319,10 @@
     "body": [
       "<valueof uniform=\"${1:PROJECTION_VIEW_MATRIX}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"PROJECTION_VIEW_MATRIX\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA PROJECTION_VIEW_MATRIX"
+    ]
   },
   "nau::valueof::CAMERA::RIGHT": {
     "scope": "xml",
@@ -257,7 +332,10 @@
     "body": [
       "<valueof uniform=\"${1:RIGHT}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"RIGHT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA RIGHT"
+    ]
   },
   "nau::valueof::CAMERA::TOP": {
     "scope": "xml",
@@ -267,7 +345,10 @@
     "body": [
       "<valueof uniform=\"${1:TOP}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TOP\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA TOP"
+    ]
   },
   "nau::valueof::CAMERA::TS05_PVM_MATRIX": {
     "scope": "xml",
@@ -277,7 +358,10 @@
     "body": [
       "<valueof uniform=\"${1:TS05_PVM_MATRIX}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TS05_PVM_MATRIX\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA TS05_PVM_MATRIX"
+    ]
   },
   "nau::valueof::CAMERA::TYPE": {
     "scope": "xml",
@@ -287,7 +371,10 @@
     "body": [
       "<valueof uniform=\"${1:TYPE}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TYPE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA TYPE"
+    ]
   },
   "nau::valueof::CAMERA::UP": {
     "scope": "xml",
@@ -297,7 +384,10 @@
     "body": [
       "<valueof uniform=\"${1:UP}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"UP\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA UP"
+    ]
   },
   "nau::valueof::CAMERA::VIEW": {
     "scope": "xml",
@@ -307,7 +397,10 @@
     "body": [
       "<valueof uniform=\"${1:VIEW}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"VIEW\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA VIEW"
+    ]
   },
   "nau::valueof::CAMERA::VIEW_INVERSE_MATRIX": {
     "scope": "xml",
@@ -317,7 +410,10 @@
     "body": [
       "<valueof uniform=\"${1:VIEW_INVERSE_MATRIX}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"VIEW_INVERSE_MATRIX\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA VIEW_INVERSE_MATRIX"
+    ]
   },
   "nau::valueof::CAMERA::VIEW_MATRIX": {
     "scope": "xml",
@@ -327,7 +423,10 @@
     "body": [
       "<valueof uniform=\"${1:VIEW_MATRIX}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"VIEW_MATRIX\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA VIEW_MATRIX"
+    ]
   },
   "nau::valueof::CAMERA::ZX_ANGLE": {
     "scope": "xml",
@@ -337,7 +436,10 @@
     "body": [
       "<valueof uniform=\"${1:ZX_ANGLE}\" \t\ttype=\"CAMERA\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ZX_ANGLE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of CAMERA ZX_ANGLE"
+    ]
   },
   "nau::valueof::COLOR::AMBIENT": {
     "scope": "xml",
@@ -347,7 +449,10 @@
     "body": [
       "<valueof uniform=\"${1:AMBIENT}\" \t\ttype=\"COLOR\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"AMBIENT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of COLOR AMBIENT"
+    ]
   },
   "nau::valueof::COLOR::DIFFUSE": {
     "scope": "xml",
@@ -357,7 +462,10 @@
     "body": [
       "<valueof uniform=\"${1:DIFFUSE}\" \t\ttype=\"COLOR\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIFFUSE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of COLOR DIFFUSE"
+    ]
   },
   "nau::valueof::COLOR::EMISSION": {
     "scope": "xml",
@@ -367,7 +475,10 @@
     "body": [
       "<valueof uniform=\"${1:EMISSION}\" \t\ttype=\"COLOR\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"EMISSION\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of COLOR EMISSION"
+    ]
   },
   "nau::valueof::COLOR::SHININESS": {
     "scope": "xml",
@@ -377,7 +488,10 @@
     "body": [
       "<valueof uniform=\"${1:SHININESS}\" \t\ttype=\"COLOR\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SHININESS\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of COLOR SHININESS"
+    ]
   },
   "nau::valueof::COLOR::SPECULAR": {
     "scope": "xml",
@@ -387,7 +501,10 @@
     "body": [
       "<valueof uniform=\"${1:SPECULAR}\" \t\ttype=\"COLOR\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SPECULAR\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of COLOR SPECULAR"
+    ]
   },
   "nau::valueof::IMAGE_TEXTURE::ACCESS": {
     "scope": "xml",
@@ -397,7 +514,10 @@
     "body": [
       "<valueof uniform=\"${1:ACCESS}\" \t\ttype=\"IMAGE_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ACCESS\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of IMAGE_TEXTURE ACCESS"
+    ]
   },
   "nau::valueof::IMAGE_TEXTURE::CLEAR": {
     "scope": "xml",
@@ -407,7 +527,10 @@
     "body": [
       "<valueof uniform=\"${1:CLEAR}\" \t\ttype=\"IMAGE_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of IMAGE_TEXTURE CLEAR"
+    ]
   },
   "nau::valueof::IMAGE_TEXTURE::INTERNAL_FORMAT": {
     "scope": "xml",
@@ -417,7 +540,10 @@
     "body": [
       "<valueof uniform=\"${1:INTERNAL_FORMAT}\" \t\ttype=\"IMAGE_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"INTERNAL_FORMAT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of IMAGE_TEXTURE INTERNAL_FORMAT"
+    ]
   },
   "nau::valueof::IMAGE_TEXTURE::LEVEL": {
     "scope": "xml",
@@ -427,7 +553,10 @@
     "body": [
       "<valueof uniform=\"${1:LEVEL}\" \t\ttype=\"IMAGE_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LEVEL\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of IMAGE_TEXTURE LEVEL"
+    ]
   },
   "nau::valueof::IMAGE_TEXTURE::TEX_ID": {
     "scope": "xml",
@@ -437,7 +566,10 @@
     "body": [
       "<valueof uniform=\"${1:TEX_ID}\" \t\ttype=\"IMAGE_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TEX_ID\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of IMAGE_TEXTURE TEX_ID"
+    ]
   },
   "nau::valueof::IMAGE_TEXTURE::UNIT": {
     "scope": "xml",
@@ -447,7 +579,10 @@
     "body": [
       "<valueof uniform=\"${1:UNIT}\" \t\ttype=\"IMAGE_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"UNIT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of IMAGE_TEXTURE UNIT"
+    ]
   },
   "nau::valueof::LIGHT::AMBIENT": {
     "scope": "xml",
@@ -457,7 +592,10 @@
     "body": [
       "<valueof uniform=\"${1:AMBIENT}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"AMBIENT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of LIGHT AMBIENT"
+    ]
   },
   "nau::valueof::LIGHT::COLOR": {
     "scope": "xml",
@@ -467,7 +605,10 @@
     "body": [
       "<valueof uniform=\"${1:COLOR}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"COLOR\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of LIGHT COLOR"
+    ]
   },
   "nau::valueof::LIGHT::CONSTANT_ATT": {
     "scope": "xml",
@@ -477,7 +618,10 @@
     "body": [
       "<valueof uniform=\"${1:CONSTANT_ATT}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CONSTANT_ATT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of LIGHT CONSTANT_ATT"
+    ]
   },
   "nau::valueof::LIGHT::DIRECTION": {
     "scope": "xml",
@@ -487,7 +631,10 @@
     "body": [
       "<valueof uniform=\"${1:DIRECTION}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIRECTION\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of LIGHT DIRECTION"
+    ]
   },
   "nau::valueof::LIGHT::ENABLED": {
     "scope": "xml",
@@ -497,7 +644,10 @@
     "body": [
       "<valueof uniform=\"${1:ENABLED}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ENABLED\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of LIGHT ENABLED"
+    ]
   },
   "nau::valueof::LIGHT::ID": {
     "scope": "xml",
@@ -507,7 +657,10 @@
     "body": [
       "<valueof uniform=\"${1:ID}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ID\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of LIGHT ID"
+    ]
   },
   "nau::valueof::LIGHT::LINEAR_ATT": {
     "scope": "xml",
@@ -517,7 +670,10 @@
     "body": [
       "<valueof uniform=\"${1:LINEAR_ATT}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LINEAR_ATT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of LIGHT LINEAR_ATT"
+    ]
   },
   "nau::valueof::LIGHT::NORMALIZED_DIRECTION": {
     "scope": "xml",
@@ -527,7 +683,10 @@
     "body": [
       "<valueof uniform=\"${1:NORMALIZED_DIRECTION}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"NORMALIZED_DIRECTION\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of LIGHT NORMALIZED_DIRECTION"
+    ]
   },
   "nau::valueof::LIGHT::POSITION": {
     "scope": "xml",
@@ -537,7 +696,10 @@
     "body": [
       "<valueof uniform=\"${1:POSITION}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"POSITION\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of LIGHT POSITION"
+    ]
   },
   "nau::valueof::LIGHT::QUADRATIC_ATT": {
     "scope": "xml",
@@ -547,7 +709,10 @@
     "body": [
       "<valueof uniform=\"${1:QUADRATIC_ATT}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"QUADRATIC_ATT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of LIGHT QUADRATIC_ATT"
+    ]
   },
   "nau::valueof::LIGHT::SPOT_CUTOFF": {
     "scope": "xml",
@@ -557,7 +722,10 @@
     "body": [
       "<valueof uniform=\"${1:SPOT_CUTOFF}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SPOT_CUTOFF\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of LIGHT SPOT_CUTOFF"
+    ]
   },
   "nau::valueof::LIGHT::SPOT_DIRECTION": {
     "scope": "xml",
@@ -567,7 +735,10 @@
     "body": [
       "<valueof uniform=\"${1:SPOT_DIRECTION}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SPOT_DIRECTION\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of LIGHT SPOT_DIRECTION"
+    ]
   },
   "nau::valueof::LIGHT::SPOT_EXPONENT": {
     "scope": "xml",
@@ -577,7 +748,10 @@
     "body": [
       "<valueof uniform=\"${1:SPOT_EXPONENT}\" \t\ttype=\"LIGHT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SPOT_EXPONENT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of LIGHT SPOT_EXPONENT"
+    ]
   },
   "nau::valueof::PASS::BUFFER_DRAW_INDIRECT": {
     "scope": "xml",
@@ -587,7 +761,10 @@
     "body": [
       "<valueof uniform=\"${1:BUFFER_DRAW_INDIRECT}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BUFFER_DRAW_INDIRECT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS BUFFER_DRAW_INDIRECT"
+    ]
   },
   "nau::valueof::PASS::COLOR_CLEAR": {
     "scope": "xml",
@@ -597,7 +774,10 @@
     "body": [
       "<valueof uniform=\"${1:COLOR_CLEAR}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"COLOR_CLEAR\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS COLOR_CLEAR"
+    ]
   },
   "nau::valueof::PASS::COLOR_CLEAR_VALUE": {
     "scope": "xml",
@@ -607,7 +787,10 @@
     "body": [
       "<valueof uniform=\"${1:COLOR_CLEAR_VALUE}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"COLOR_CLEAR_VALUE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS COLOR_CLEAR_VALUE"
+    ]
   },
   "nau::valueof::PASS::COLOR_ENABLE": {
     "scope": "xml",
@@ -617,7 +800,10 @@
     "body": [
       "<valueof uniform=\"${1:COLOR_ENABLE}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"COLOR_ENABLE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS COLOR_ENABLE"
+    ]
   },
   "nau::valueof::PASS::DEPTH_CLAMPING": {
     "scope": "xml",
@@ -627,7 +813,10 @@
     "body": [
       "<valueof uniform=\"${1:DEPTH_CLAMPING}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_CLAMPING\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS DEPTH_CLAMPING"
+    ]
   },
   "nau::valueof::PASS::DEPTH_CLEAR": {
     "scope": "xml",
@@ -637,7 +826,10 @@
     "body": [
       "<valueof uniform=\"${1:DEPTH_CLEAR}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_CLEAR\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS DEPTH_CLEAR"
+    ]
   },
   "nau::valueof::PASS::DEPTH_CLEAR_VALUE": {
     "scope": "xml",
@@ -647,7 +839,10 @@
     "body": [
       "<valueof uniform=\"${1:DEPTH_CLEAR_VALUE}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_CLEAR_VALUE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS DEPTH_CLEAR_VALUE"
+    ]
   },
   "nau::valueof::PASS::DEPTH_ENABLE": {
     "scope": "xml",
@@ -657,7 +852,10 @@
     "body": [
       "<valueof uniform=\"${1:DEPTH_ENABLE}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_ENABLE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS DEPTH_ENABLE"
+    ]
   },
   "nau::valueof::PASS::DEPTH_FUNC": {
     "scope": "xml",
@@ -667,7 +865,10 @@
     "body": [
       "<valueof uniform=\"${1:DEPTH_FUNC}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_FUNC\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS DEPTH_FUNC"
+    ]
   },
   "nau::valueof::PASS::DEPTH_MASK": {
     "scope": "xml",
@@ -677,7 +878,10 @@
     "body": [
       "<valueof uniform=\"${1:DEPTH_MASK}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_MASK\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS DEPTH_MASK"
+    ]
   },
   "nau::valueof::PASS::DIM_X": {
     "scope": "xml",
@@ -687,7 +891,10 @@
     "body": [
       "<valueof uniform=\"${1:DIM_X}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIM_X\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS DIM_X"
+    ]
   },
   "nau::valueof::PASS::DIM_Y": {
     "scope": "xml",
@@ -697,7 +904,10 @@
     "body": [
       "<valueof uniform=\"${1:DIM_Y}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIM_Y\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS DIM_Y"
+    ]
   },
   "nau::valueof::PASS::DIM_Z": {
     "scope": "xml",
@@ -707,7 +917,10 @@
     "body": [
       "<valueof uniform=\"${1:DIM_Z}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIM_Z\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS DIM_Z"
+    ]
   },
   "nau::valueof::PASS::INSTANCE_COUNT": {
     "scope": "xml",
@@ -717,7 +930,10 @@
     "body": [
       "<valueof uniform=\"${1:INSTANCE_COUNT}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"INSTANCE_COUNT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS INSTANCE_COUNT"
+    ]
   },
   "nau::valueof::PASS::RAY_COUNT": {
     "scope": "xml",
@@ -727,7 +943,10 @@
     "body": [
       "<valueof uniform=\"${1:RAY_COUNT}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"RAY_COUNT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS RAY_COUNT"
+    ]
   },
   "nau::valueof::PASS::RUN_MODE": {
     "scope": "xml",
@@ -737,7 +956,10 @@
     "body": [
       "<valueof uniform=\"${1:RUN_MODE}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"RUN_MODE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS RUN_MODE"
+    ]
   },
   "nau::valueof::PASS::STENCIL_CLEAR": {
     "scope": "xml",
@@ -747,7 +969,10 @@
     "body": [
       "<valueof uniform=\"${1:STENCIL_CLEAR}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_CLEAR\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS STENCIL_CLEAR"
+    ]
   },
   "nau::valueof::PASS::STENCIL_CLEAR_VALUE": {
     "scope": "xml",
@@ -757,7 +982,10 @@
     "body": [
       "<valueof uniform=\"${1:STENCIL_CLEAR_VALUE}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_CLEAR_VALUE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS STENCIL_CLEAR_VALUE"
+    ]
   },
   "nau::valueof::PASS::STENCIL_DEPTH_FAIL": {
     "scope": "xml",
@@ -767,7 +995,10 @@
     "body": [
       "<valueof uniform=\"${1:STENCIL_DEPTH_FAIL}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_DEPTH_FAIL\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS STENCIL_DEPTH_FAIL"
+    ]
   },
   "nau::valueof::PASS::STENCIL_DEPTH_PASS": {
     "scope": "xml",
@@ -777,7 +1008,10 @@
     "body": [
       "<valueof uniform=\"${1:STENCIL_DEPTH_PASS}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_DEPTH_PASS\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS STENCIL_DEPTH_PASS"
+    ]
   },
   "nau::valueof::PASS::STENCIL_ENABLE": {
     "scope": "xml",
@@ -787,7 +1021,10 @@
     "body": [
       "<valueof uniform=\"${1:STENCIL_ENABLE}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_ENABLE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS STENCIL_ENABLE"
+    ]
   },
   "nau::valueof::PASS::STENCIL_FAIL": {
     "scope": "xml",
@@ -797,7 +1034,10 @@
     "body": [
       "<valueof uniform=\"${1:STENCIL_FAIL}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_FAIL\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS STENCIL_FAIL"
+    ]
   },
   "nau::valueof::PASS::STENCIL_FUNC": {
     "scope": "xml",
@@ -807,7 +1047,10 @@
     "body": [
       "<valueof uniform=\"${1:STENCIL_FUNC}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_FUNC\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS STENCIL_FUNC"
+    ]
   },
   "nau::valueof::PASS::STENCIL_OP_MASK": {
     "scope": "xml",
@@ -817,7 +1060,10 @@
     "body": [
       "<valueof uniform=\"${1:STENCIL_OP_MASK}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_OP_MASK\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS STENCIL_OP_MASK"
+    ]
   },
   "nau::valueof::PASS::STENCIL_OP_REF": {
     "scope": "xml",
@@ -827,7 +1073,10 @@
     "body": [
       "<valueof uniform=\"${1:STENCIL_OP_REF}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STENCIL_OP_REF\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS STENCIL_OP_REF"
+    ]
   },
   "nau::valueof::PASS::TEST_MODE": {
     "scope": "xml",
@@ -837,7 +1086,10 @@
     "body": [
       "<valueof uniform=\"${1:TEST_MODE}\" \t\ttype=\"PASS\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TEST_MODE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS TEST_MODE"
+    ]
   },
   "nau::valueof::PASS_POST_PROCESS_BUFFER::CLEAR": {
     "scope": "xml",
@@ -847,7 +1099,10 @@
     "body": [
       "<valueof uniform=\"${1:CLEAR}\" \t\ttype=\"PASS_POST_PROCESS_BUFFER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS_POST_PROCESS_BUFFER CLEAR"
+    ]
   },
   "nau::valueof::PASS_POST_PROCESS_TEXTURE::CLEAR": {
     "scope": "xml",
@@ -857,7 +1112,10 @@
     "body": [
       "<valueof uniform=\"${1:CLEAR}\" \t\ttype=\"PASS_POST_PROCESS_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS_POST_PROCESS_TEXTURE CLEAR"
+    ]
   },
   "nau::valueof::PASS_POST_PROCESS_TEXTURE::CLEAR_LEVEL": {
     "scope": "xml",
@@ -867,7 +1125,10 @@
     "body": [
       "<valueof uniform=\"${1:CLEAR_LEVEL}\" \t\ttype=\"PASS_POST_PROCESS_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR_LEVEL\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS_POST_PROCESS_TEXTURE CLEAR_LEVEL"
+    ]
   },
   "nau::valueof::PASS_POST_PROCESS_TEXTURE::MIPMAP": {
     "scope": "xml",
@@ -877,7 +1138,10 @@
     "body": [
       "<valueof uniform=\"${1:MIPMAP}\" \t\ttype=\"PASS_POST_PROCESS_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"MIPMAP\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS_POST_PROCESS_TEXTURE MIPMAP"
+    ]
   },
   "nau::valueof::PASS_PRE_PROCESS_BUFFER::CLEAR": {
     "scope": "xml",
@@ -887,7 +1151,10 @@
     "body": [
       "<valueof uniform=\"${1:CLEAR}\" \t\ttype=\"PASS_PRE_PROCESS_BUFFER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS_PRE_PROCESS_BUFFER CLEAR"
+    ]
   },
   "nau::valueof::PASS_PRE_PROCESS_TEXTURE::CLEAR": {
     "scope": "xml",
@@ -897,7 +1164,10 @@
     "body": [
       "<valueof uniform=\"${1:CLEAR}\" \t\ttype=\"PASS_PRE_PROCESS_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS_PRE_PROCESS_TEXTURE CLEAR"
+    ]
   },
   "nau::valueof::PASS_PRE_PROCESS_TEXTURE::CLEAR_LEVEL": {
     "scope": "xml",
@@ -907,7 +1177,10 @@
     "body": [
       "<valueof uniform=\"${1:CLEAR_LEVEL}\" \t\ttype=\"PASS_PRE_PROCESS_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR_LEVEL\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS_PRE_PROCESS_TEXTURE CLEAR_LEVEL"
+    ]
   },
   "nau::valueof::PASS_PRE_PROCESS_TEXTURE::MIPMAP": {
     "scope": "xml",
@@ -917,7 +1190,10 @@
     "body": [
       "<valueof uniform=\"${1:MIPMAP}\" \t\ttype=\"PASS_PRE_PROCESS_TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"MIPMAP\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of PASS_PRE_PROCESS_TEXTURE MIPMAP"
+    ]
   },
   "nau::valueof::RENDERER::BUFFER_DRAW_INDIRECT": {
     "scope": "xml",
@@ -927,7 +1203,10 @@
     "body": [
       "<valueof uniform=\"${1:BUFFER_DRAW_INDIRECT}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BUFFER_DRAW_INDIRECT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER BUFFER_DRAW_INDIRECT"
+    ]
   },
   "nau::valueof::RENDERER::DEBUG_DRAW_CALL": {
     "scope": "xml",
@@ -937,7 +1216,10 @@
     "body": [
       "<valueof uniform=\"${1:DEBUG_DRAW_CALL}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEBUG_DRAW_CALL\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER DEBUG_DRAW_CALL"
+    ]
   },
   "nau::valueof::RENDERER::FRAME_COUNT": {
     "scope": "xml",
@@ -947,7 +1229,10 @@
     "body": [
       "<valueof uniform=\"${1:FRAME_COUNT}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"FRAME_COUNT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER FRAME_COUNT"
+    ]
   },
   "nau::valueof::RENDERER::INSTANCE_COUNT": {
     "scope": "xml",
@@ -957,7 +1242,10 @@
     "body": [
       "<valueof uniform=\"${1:INSTANCE_COUNT}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"INSTANCE_COUNT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER INSTANCE_COUNT"
+    ]
   },
   "nau::valueof::RENDERER::LIGHT_COUNT": {
     "scope": "xml",
@@ -967,7 +1255,10 @@
     "body": [
       "<valueof uniform=\"${1:LIGHT_COUNT}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LIGHT_COUNT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER LIGHT_COUNT"
+    ]
   },
   "nau::valueof::RENDERER::MODEL": {
     "scope": "xml",
@@ -977,7 +1268,10 @@
     "body": [
       "<valueof uniform=\"${1:MODEL}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"MODEL\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER MODEL"
+    ]
   },
   "nau::valueof::RENDERER::MOUSE_LEFT_CLICK": {
     "scope": "xml",
@@ -987,7 +1281,10 @@
     "body": [
       "<valueof uniform=\"${1:MOUSE_LEFT_CLICK}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"MOUSE_LEFT_CLICK\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER MOUSE_LEFT_CLICK"
+    ]
   },
   "nau::valueof::RENDERER::MOUSE_MIDDLE_CLICK": {
     "scope": "xml",
@@ -997,7 +1294,10 @@
     "body": [
       "<valueof uniform=\"${1:MOUSE_MIDDLE_CLICK}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"MOUSE_MIDDLE_CLICK\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER MOUSE_MIDDLE_CLICK"
+    ]
   },
   "nau::valueof::RENDERER::MOUSE_RIGHT_CLICK": {
     "scope": "xml",
@@ -1007,7 +1307,10 @@
     "body": [
       "<valueof uniform=\"${1:MOUSE_RIGHT_CLICK}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"MOUSE_RIGHT_CLICK\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER MOUSE_RIGHT_CLICK"
+    ]
   },
   "nau::valueof::RENDERER::NORMAL": {
     "scope": "xml",
@@ -1017,7 +1320,10 @@
     "body": [
       "<valueof uniform=\"${1:NORMAL}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"NORMAL\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER NORMAL"
+    ]
   },
   "nau::valueof::RENDERER::PROJECTION": {
     "scope": "xml",
@@ -1027,7 +1333,10 @@
     "body": [
       "<valueof uniform=\"${1:PROJECTION}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"PROJECTION\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER PROJECTION"
+    ]
   },
   "nau::valueof::RENDERER::PROJECTION_VIEW": {
     "scope": "xml",
@@ -1037,7 +1346,10 @@
     "body": [
       "<valueof uniform=\"${1:PROJECTION_VIEW}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"PROJECTION_VIEW\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER PROJECTION_VIEW"
+    ]
   },
   "nau::valueof::RENDERER::PROJECTION_VIEW_MODEL": {
     "scope": "xml",
@@ -1047,7 +1359,10 @@
     "body": [
       "<valueof uniform=\"${1:PROJECTION_VIEW_MODEL}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"PROJECTION_VIEW_MODEL\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER PROJECTION_VIEW_MODEL"
+    ]
   },
   "nau::valueof::RENDERER::TEXTURE": {
     "scope": "xml",
@@ -1057,7 +1372,10 @@
     "body": [
       "<valueof uniform=\"${1:TEXTURE}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TEXTURE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER TEXTURE"
+    ]
   },
   "nau::valueof::RENDERER::TEXTURE_COUNT": {
     "scope": "xml",
@@ -1067,7 +1385,10 @@
     "body": [
       "<valueof uniform=\"${1:TEXTURE_COUNT}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TEXTURE_COUNT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER TEXTURE_COUNT"
+    ]
   },
   "nau::valueof::RENDERER::TIMER": {
     "scope": "xml",
@@ -1077,7 +1398,10 @@
     "body": [
       "<valueof uniform=\"${1:TIMER}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TIMER\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER TIMER"
+    ]
   },
   "nau::valueof::RENDERER::TS05_PVM": {
     "scope": "xml",
@@ -1087,7 +1411,10 @@
     "body": [
       "<valueof uniform=\"${1:TS05_PVM}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TS05_PVM\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER TS05_PVM"
+    ]
   },
   "nau::valueof::RENDERER::VIEW": {
     "scope": "xml",
@@ -1097,7 +1424,10 @@
     "body": [
       "<valueof uniform=\"${1:VIEW}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"VIEW\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER VIEW"
+    ]
   },
   "nau::valueof::RENDERER::VIEW_MODEL": {
     "scope": "xml",
@@ -1107,7 +1437,10 @@
     "body": [
       "<valueof uniform=\"${1:VIEW_MODEL}\" \t\ttype=\"RENDERER\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"VIEW_MODEL\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDERER VIEW_MODEL"
+    ]
   },
   "nau::valueof::RENDER_TARGET::CLEAR_VALUES": {
     "scope": "xml",
@@ -1117,7 +1450,10 @@
     "body": [
       "<valueof uniform=\"${1:CLEAR_VALUES}\" \t\ttype=\"RENDER_TARGET\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR_VALUES\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDER_TARGET CLEAR_VALUES"
+    ]
   },
   "nau::valueof::RENDER_TARGET::LAYERS": {
     "scope": "xml",
@@ -1127,7 +1463,10 @@
     "body": [
       "<valueof uniform=\"${1:LAYERS}\" \t\ttype=\"RENDER_TARGET\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LAYERS\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDER_TARGET LAYERS"
+    ]
   },
   "nau::valueof::RENDER_TARGET::LEVELS": {
     "scope": "xml",
@@ -1137,7 +1476,10 @@
     "body": [
       "<valueof uniform=\"${1:LEVELS}\" \t\ttype=\"RENDER_TARGET\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LEVELS\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDER_TARGET LEVELS"
+    ]
   },
   "nau::valueof::RENDER_TARGET::SAMPLES": {
     "scope": "xml",
@@ -1147,7 +1489,10 @@
     "body": [
       "<valueof uniform=\"${1:SAMPLES}\" \t\ttype=\"RENDER_TARGET\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SAMPLES\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDER_TARGET SAMPLES"
+    ]
   },
   "nau::valueof::RENDER_TARGET::SIZE": {
     "scope": "xml",
@@ -1157,7 +1502,10 @@
     "body": [
       "<valueof uniform=\"${1:SIZE}\" \t\ttype=\"RENDER_TARGET\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SIZE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of RENDER_TARGET SIZE"
+    ]
   },
   "nau::valueof::SCENE::BB_CENTER": {
     "scope": "xml",
@@ -1167,7 +1515,10 @@
     "body": [
       "<valueof uniform=\"${1:BB_CENTER}\" \t\ttype=\"SCENE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BB_CENTER\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of SCENE BB_CENTER"
+    ]
   },
   "nau::valueof::SCENE::BB_MAX": {
     "scope": "xml",
@@ -1177,7 +1528,10 @@
     "body": [
       "<valueof uniform=\"${1:BB_MAX}\" \t\ttype=\"SCENE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BB_MAX\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of SCENE BB_MAX"
+    ]
   },
   "nau::valueof::SCENE::BB_MIN": {
     "scope": "xml",
@@ -1187,7 +1541,10 @@
     "body": [
       "<valueof uniform=\"${1:BB_MIN}\" \t\ttype=\"SCENE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BB_MIN\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of SCENE BB_MIN"
+    ]
   },
   "nau::valueof::SCENE::ROTATE": {
     "scope": "xml",
@@ -1197,7 +1554,10 @@
     "body": [
       "<valueof uniform=\"${1:ROTATE}\" \t\ttype=\"SCENE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ROTATE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of SCENE ROTATE"
+    ]
   },
   "nau::valueof::SCENE::SCALE": {
     "scope": "xml",
@@ -1207,7 +1567,10 @@
     "body": [
       "<valueof uniform=\"${1:SCALE}\" \t\ttype=\"SCENE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SCALE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of SCENE SCALE"
+    ]
   },
   "nau::valueof::SCENE::TRANSFORM_ORDER": {
     "scope": "xml",
@@ -1217,7 +1580,10 @@
     "body": [
       "<valueof uniform=\"${1:TRANSFORM_ORDER}\" \t\ttype=\"SCENE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TRANSFORM_ORDER\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of SCENE TRANSFORM_ORDER"
+    ]
   },
   "nau::valueof::SCENE::TRANSLATE": {
     "scope": "xml",
@@ -1227,7 +1593,10 @@
     "body": [
       "<valueof uniform=\"${1:TRANSLATE}\" \t\ttype=\"SCENE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TRANSLATE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of SCENE TRANSLATE"
+    ]
   },
   "nau::valueof::SCENE_OBJECT::ROTATE": {
     "scope": "xml",
@@ -1237,7 +1606,10 @@
     "body": [
       "<valueof uniform=\"${1:ROTATE}\" \t\ttype=\"SCENE_OBJECT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ROTATE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of SCENE_OBJECT ROTATE"
+    ]
   },
   "nau::valueof::SCENE_OBJECT::SCALE": {
     "scope": "xml",
@@ -1247,7 +1619,10 @@
     "body": [
       "<valueof uniform=\"${1:SCALE}\" \t\ttype=\"SCENE_OBJECT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SCALE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of SCENE_OBJECT SCALE"
+    ]
   },
   "nau::valueof::SCENE_OBJECT::TRANSFORM_ORDER": {
     "scope": "xml",
@@ -1257,7 +1632,10 @@
     "body": [
       "<valueof uniform=\"${1:TRANSFORM_ORDER}\" \t\ttype=\"SCENE_OBJECT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TRANSFORM_ORDER\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of SCENE_OBJECT TRANSFORM_ORDER"
+    ]
   },
   "nau::valueof::SCENE_OBJECT::TRANSLATE": {
     "scope": "xml",
@@ -1267,7 +1645,10 @@
     "body": [
       "<valueof uniform=\"${1:TRANSLATE}\" \t\ttype=\"SCENE_OBJECT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TRANSLATE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of SCENE_OBJECT TRANSLATE"
+    ]
   },
   "nau::valueof::SPHERE::SLICES": {
     "scope": "xml",
@@ -1277,7 +1658,10 @@
     "body": [
       "<valueof uniform=\"${1:SLICES}\" \t\ttype=\"SPHERE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SLICES\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of SPHERE SLICES"
+    ]
   },
   "nau::valueof::SPHERE::STACKS": {
     "scope": "xml",
@@ -1287,7 +1671,10 @@
     "body": [
       "<valueof uniform=\"${1:STACKS}\" \t\ttype=\"SPHERE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"STACKS\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of SPHERE STACKS"
+    ]
   },
   "nau::valueof::STATE::BLEND": {
     "scope": "xml",
@@ -1297,7 +1684,10 @@
     "body": [
       "<valueof uniform=\"${1:BLEND}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BLEND\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of STATE BLEND"
+    ]
   },
   "nau::valueof::STATE::BLEND_COLOR": {
     "scope": "xml",
@@ -1307,7 +1697,10 @@
     "body": [
       "<valueof uniform=\"${1:BLEND_COLOR}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BLEND_COLOR\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of STATE BLEND_COLOR"
+    ]
   },
   "nau::valueof::STATE::BLEND_DST": {
     "scope": "xml",
@@ -1317,7 +1710,10 @@
     "body": [
       "<valueof uniform=\"${1:BLEND_DST}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BLEND_DST\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of STATE BLEND_DST"
+    ]
   },
   "nau::valueof::STATE::BLEND_EQUATION": {
     "scope": "xml",
@@ -1327,7 +1723,10 @@
     "body": [
       "<valueof uniform=\"${1:BLEND_EQUATION}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BLEND_EQUATION\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of STATE BLEND_EQUATION"
+    ]
   },
   "nau::valueof::STATE::BLEND_SRC": {
     "scope": "xml",
@@ -1337,7 +1736,10 @@
     "body": [
       "<valueof uniform=\"${1:BLEND_SRC}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"BLEND_SRC\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of STATE BLEND_SRC"
+    ]
   },
   "nau::valueof::STATE::COLOR_MASK_B4": {
     "scope": "xml",
@@ -1347,7 +1749,10 @@
     "body": [
       "<valueof uniform=\"${1:COLOR_MASK_B4}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"COLOR_MASK_B4\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of STATE COLOR_MASK_B4"
+    ]
   },
   "nau::valueof::STATE::CULL_FACE": {
     "scope": "xml",
@@ -1357,7 +1762,10 @@
     "body": [
       "<valueof uniform=\"${1:CULL_FACE}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CULL_FACE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of STATE CULL_FACE"
+    ]
   },
   "nau::valueof::STATE::CULL_TYPE": {
     "scope": "xml",
@@ -1367,7 +1775,10 @@
     "body": [
       "<valueof uniform=\"${1:CULL_TYPE}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CULL_TYPE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of STATE CULL_TYPE"
+    ]
   },
   "nau::valueof::STATE::DEPTH_FUNC": {
     "scope": "xml",
@@ -1377,7 +1788,10 @@
     "body": [
       "<valueof uniform=\"${1:DEPTH_FUNC}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_FUNC\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of STATE DEPTH_FUNC"
+    ]
   },
   "nau::valueof::STATE::DEPTH_MASK": {
     "scope": "xml",
@@ -1387,7 +1801,10 @@
     "body": [
       "<valueof uniform=\"${1:DEPTH_MASK}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_MASK\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of STATE DEPTH_MASK"
+    ]
   },
   "nau::valueof::STATE::DEPTH_TEST": {
     "scope": "xml",
@@ -1397,7 +1814,10 @@
     "body": [
       "<valueof uniform=\"${1:DEPTH_TEST}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH_TEST\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of STATE DEPTH_TEST"
+    ]
   },
   "nau::valueof::STATE::ORDER": {
     "scope": "xml",
@@ -1407,7 +1827,10 @@
     "body": [
       "<valueof uniform=\"${1:ORDER}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ORDER\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of STATE ORDER"
+    ]
   },
   "nau::valueof::STATE::ORDER_TYPE": {
     "scope": "xml",
@@ -1417,7 +1840,10 @@
     "body": [
       "<valueof uniform=\"${1:ORDER_TYPE}\" \t\ttype=\"STATE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ORDER_TYPE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of STATE ORDER_TYPE"
+    ]
   },
   "nau::valueof::TEXTURE::COMPONENT_COUNT": {
     "scope": "xml",
@@ -1427,7 +1853,10 @@
     "body": [
       "<valueof uniform=\"${1:COMPONENT_COUNT}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"COMPONENT_COUNT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE COMPONENT_COUNT"
+    ]
   },
   "nau::valueof::TEXTURE::DEPTH": {
     "scope": "xml",
@@ -1437,7 +1866,10 @@
     "body": [
       "<valueof uniform=\"${1:DEPTH}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE DEPTH"
+    ]
   },
   "nau::valueof::TEXTURE::DIMENSION": {
     "scope": "xml",
@@ -1447,7 +1879,10 @@
     "body": [
       "<valueof uniform=\"${1:DIMENSION}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIMENSION\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE DIMENSION"
+    ]
   },
   "nau::valueof::TEXTURE::ELEMENT_SIZE": {
     "scope": "xml",
@@ -1457,7 +1892,10 @@
     "body": [
       "<valueof uniform=\"${1:ELEMENT_SIZE}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ELEMENT_SIZE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE ELEMENT_SIZE"
+    ]
   },
   "nau::valueof::TEXTURE::FORMAT": {
     "scope": "xml",
@@ -1467,7 +1905,10 @@
     "body": [
       "<valueof uniform=\"${1:FORMAT}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"FORMAT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE FORMAT"
+    ]
   },
   "nau::valueof::TEXTURE::HEIGHT": {
     "scope": "xml",
@@ -1477,7 +1918,10 @@
     "body": [
       "<valueof uniform=\"${1:HEIGHT}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"HEIGHT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE HEIGHT"
+    ]
   },
   "nau::valueof::TEXTURE::ID": {
     "scope": "xml",
@@ -1487,7 +1931,10 @@
     "body": [
       "<valueof uniform=\"${1:ID}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ID\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE ID"
+    ]
   },
   "nau::valueof::TEXTURE::INTERNAL_FORMAT": {
     "scope": "xml",
@@ -1497,7 +1944,10 @@
     "body": [
       "<valueof uniform=\"${1:INTERNAL_FORMAT}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"INTERNAL_FORMAT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE INTERNAL_FORMAT"
+    ]
   },
   "nau::valueof::TEXTURE::LAYERS": {
     "scope": "xml",
@@ -1507,7 +1957,10 @@
     "body": [
       "<valueof uniform=\"${1:LAYERS}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LAYERS\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE LAYERS"
+    ]
   },
   "nau::valueof::TEXTURE::LEVELS": {
     "scope": "xml",
@@ -1517,7 +1970,10 @@
     "body": [
       "<valueof uniform=\"${1:LEVELS}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LEVELS\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE LEVELS"
+    ]
   },
   "nau::valueof::TEXTURE::MIPMAP": {
     "scope": "xml",
@@ -1527,7 +1983,10 @@
     "body": [
       "<valueof uniform=\"${1:MIPMAP}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"MIPMAP\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE MIPMAP"
+    ]
   },
   "nau::valueof::TEXTURE::SAMPLES": {
     "scope": "xml",
@@ -1537,7 +1996,10 @@
     "body": [
       "<valueof uniform=\"${1:SAMPLES}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SAMPLES\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE SAMPLES"
+    ]
   },
   "nau::valueof::TEXTURE::TYPE": {
     "scope": "xml",
@@ -1547,7 +2009,10 @@
     "body": [
       "<valueof uniform=\"${1:TYPE}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TYPE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE TYPE"
+    ]
   },
   "nau::valueof::TEXTURE::WIDTH": {
     "scope": "xml",
@@ -1557,7 +2022,10 @@
     "body": [
       "<valueof uniform=\"${1:WIDTH}\" \t\ttype=\"TEXTURE\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"WIDTH\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE WIDTH"
+    ]
   },
   "nau::valueof::TEXTURE_BINDING::UNIT": {
     "scope": "xml",
@@ -1567,7 +2035,10 @@
     "body": [
       "<valueof uniform=\"${1:UNIT}\" \t\ttype=\"TEXTURE_BINDING\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"UNIT\" id=\"$2\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE_BINDING UNIT"
+    ]
   },
   "nau::valueof::TEXTURE_MATERIAL::COMPONENT_COUNT": {
     "scope": "xml",
@@ -1577,7 +2048,10 @@
     "body": [
       "<valueof uniform=\"${1:COMPONENT_COUNT}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"COMPONENT_COUNT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE_MATERIAL COMPONENT_COUNT"
+    ]
   },
   "nau::valueof::TEXTURE_MATERIAL::DEPTH": {
     "scope": "xml",
@@ -1587,7 +2061,10 @@
     "body": [
       "<valueof uniform=\"${1:DEPTH}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DEPTH\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE_MATERIAL DEPTH"
+    ]
   },
   "nau::valueof::TEXTURE_MATERIAL::DIMENSION": {
     "scope": "xml",
@@ -1597,7 +2074,10 @@
     "body": [
       "<valueof uniform=\"${1:DIMENSION}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"DIMENSION\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE_MATERIAL DIMENSION"
+    ]
   },
   "nau::valueof::TEXTURE_MATERIAL::ELEMENT_SIZE": {
     "scope": "xml",
@@ -1607,7 +2087,10 @@
     "body": [
       "<valueof uniform=\"${1:ELEMENT_SIZE}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ELEMENT_SIZE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE_MATERIAL ELEMENT_SIZE"
+    ]
   },
   "nau::valueof::TEXTURE_MATERIAL::FORMAT": {
     "scope": "xml",
@@ -1617,7 +2100,10 @@
     "body": [
       "<valueof uniform=\"${1:FORMAT}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"FORMAT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE_MATERIAL FORMAT"
+    ]
   },
   "nau::valueof::TEXTURE_MATERIAL::HEIGHT": {
     "scope": "xml",
@@ -1627,7 +2113,10 @@
     "body": [
       "<valueof uniform=\"${1:HEIGHT}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"HEIGHT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE_MATERIAL HEIGHT"
+    ]
   },
   "nau::valueof::TEXTURE_MATERIAL::ID": {
     "scope": "xml",
@@ -1637,7 +2126,10 @@
     "body": [
       "<valueof uniform=\"${1:ID}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ID\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE_MATERIAL ID"
+    ]
   },
   "nau::valueof::TEXTURE_MATERIAL::INTERNAL_FORMAT": {
     "scope": "xml",
@@ -1647,7 +2139,10 @@
     "body": [
       "<valueof uniform=\"${1:INTERNAL_FORMAT}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"INTERNAL_FORMAT\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE_MATERIAL INTERNAL_FORMAT"
+    ]
   },
   "nau::valueof::TEXTURE_MATERIAL::LAYERS": {
     "scope": "xml",
@@ -1657,7 +2152,10 @@
     "body": [
       "<valueof uniform=\"${1:LAYERS}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LAYERS\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE_MATERIAL LAYERS"
+    ]
   },
   "nau::valueof::TEXTURE_MATERIAL::LEVELS": {
     "scope": "xml",
@@ -1667,7 +2165,10 @@
     "body": [
       "<valueof uniform=\"${1:LEVELS}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"LEVELS\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE_MATERIAL LEVELS"
+    ]
   },
   "nau::valueof::TEXTURE_MATERIAL::MIPMAP": {
     "scope": "xml",
@@ -1677,7 +2178,10 @@
     "body": [
       "<valueof uniform=\"${1:MIPMAP}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"MIPMAP\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE_MATERIAL MIPMAP"
+    ]
   },
   "nau::valueof::TEXTURE_MATERIAL::SAMPLES": {
     "scope": "xml",
@@ -1687,7 +2191,10 @@
     "body": [
       "<valueof uniform=\"${1:SAMPLES}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SAMPLES\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE_MATERIAL SAMPLES"
+    ]
   },
   "nau::valueof::TEXTURE_MATERIAL::TYPE": {
     "scope": "xml",
@@ -1697,7 +2204,10 @@
     "body": [
       "<valueof uniform=\"${1:TYPE}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"TYPE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE_MATERIAL TYPE"
+    ]
   },
   "nau::valueof::TEXTURE_MATERIAL::WIDTH": {
     "scope": "xml",
@@ -1707,7 +2217,10 @@
     "body": [
       "<valueof uniform=\"${1:WIDTH}\" \t\ttype=\"TEXTURE_MATERIAL\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"WIDTH\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of TEXTURE_MATERIAL WIDTH"
+    ]
   },
   "nau::valueof::VIEWPORT::ABSOLUT_ORIGIN": {
     "scope": "xml",
@@ -1717,7 +2230,10 @@
     "body": [
       "<valueof uniform=\"${1:ABSOLUT_ORIGIN}\" \t\ttype=\"VIEWPORT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ABSOLUT_ORIGIN\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of VIEWPORT ABSOLUT_ORIGIN"
+    ]
   },
   "nau::valueof::VIEWPORT::ABSOLUT_SIZE": {
     "scope": "xml",
@@ -1727,7 +2243,10 @@
     "body": [
       "<valueof uniform=\"${1:ABSOLUT_SIZE}\" \t\ttype=\"VIEWPORT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ABSOLUT_SIZE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of VIEWPORT ABSOLUT_SIZE"
+    ]
   },
   "nau::valueof::VIEWPORT::CLEAR_COLOR": {
     "scope": "xml",
@@ -1737,7 +2256,10 @@
     "body": [
       "<valueof uniform=\"${1:CLEAR_COLOR}\" \t\ttype=\"VIEWPORT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"CLEAR_COLOR\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of VIEWPORT CLEAR_COLOR"
+    ]
   },
   "nau::valueof::VIEWPORT::FULL": {
     "scope": "xml",
@@ -1747,7 +2269,10 @@
     "body": [
       "<valueof uniform=\"${1:FULL}\" \t\ttype=\"VIEWPORT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"FULL\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of VIEWPORT FULL"
+    ]
   },
   "nau::valueof::VIEWPORT::ORIGIN": {
     "scope": "xml",
@@ -1757,7 +2282,10 @@
     "body": [
       "<valueof uniform=\"${1:ORIGIN}\" \t\ttype=\"VIEWPORT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"ORIGIN\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of VIEWPORT ORIGIN"
+    ]
   },
   "nau::valueof::VIEWPORT::RATIO": {
     "scope": "xml",
@@ -1767,7 +2295,10 @@
     "body": [
       "<valueof uniform=\"${1:RATIO}\" \t\ttype=\"VIEWPORT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"RATIO\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of VIEWPORT RATIO"
+    ]
   },
   "nau::valueof::VIEWPORT::SIZE": {
     "scope": "xml",
@@ -1777,6 +2308,9 @@
     "body": [
       "<valueof uniform=\"${1:SIZE}\" \t\ttype=\"VIEWPORT\" \t\tcontext=\"CURRENT\" \t\tcomponent=\"SIZE\" />"
     ],
-    "description": ""
+    "description": [
+      "materialLib>>materials>>material>>shader>>values",
+      "\tValue Of VIEWPORT SIZE"
+    ]
   }
 }
